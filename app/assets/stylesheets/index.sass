@@ -1,10 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:700)
-@import 'compass/css3/border-radius'
-@import 'compass/css3/transition'
-@import 'compass/css3/transform'
+@import 'compass'
 
-$background: dimgray
-$foreground: honeydew
+$background: honeydew
+$foreground: darkslategrey
 
 body
   background-color: $background
@@ -12,26 +10,29 @@ body
   text-align: center
 
 .container
-  width: 216px
+  @include border-radius(50px)
+  background-color: $foreground
+  width: 300px
   margin: 10% auto 0
+  padding: 40px 10px
 
   .gravatar
     img
       @include border-radius(100%)
-      border: 8px solid $foreground
+      border: 8px solid $background
 
   .name
-    color: $foreground
-    font-size: 2.2em
+    color: $background
+    font-size: 2.4em
     margin: 0.4em 0
 
   .link
     @include border-radius(100%)
-    @include transition(all 0.2s ease-in-out)
-    color: $foreground
+    @include transition(all 0.5s ease-in-out)
+    color: $background
     text-decoration: none
     display: inline-block
-    width: 22%
+    width: 54px
 
     &:hover
-      @include transform(scale(1.5))
+      @include transform(scale(1.5) rotate(360deg))
