@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:700)
+@import 'compass/css3/border-radius'
+@import 'compass/css3/transition'
+@import 'compass/css3/transform'
+
 $background: dimgray
 $foreground: honeydew
 
@@ -13,8 +17,8 @@ body
 
   .gravatar
     img
+      @include border-radius(100%)
       border: 8px solid $foreground
-      border-radius: 110px
 
   .name
     color: $foreground
@@ -22,13 +26,13 @@ body
     margin: 0.4em 0
 
   .link
+    @include border-radius(100%)
+    @include transition(all 0.2s ease-in-out)
     color: $foreground
     text-decoration: none
     display: inline-block
-    border-radius: 100px
     height: 50px
     width: 50px
-    -webkit-transition: all .2s ease-in-out
 
     &:hover
-      -webkit-transform: scale(1.4)
+      @include transform(scale(1.5))
