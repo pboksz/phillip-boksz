@@ -1,0 +1,19 @@
+.container
+  .gravatar
+    = image_tag @gravatar_url, :alt => 'Phillip Boksz'
+
+  .name
+    Phillip Boksz
+
+  .links
+    = link_to @github_url, :class => 'link', :target => '_blank' do
+      %i.icon-2x.icon-github
+
+    = link_to @linkedin_url, :class => 'link', :target => '_blank' do
+      %i.icon-2x.icon-linkedin-sign
+
+    = link_to @lunar_logic_url, :class => 'link', :target => '_blank' do
+      %i.icon-2x.icon-rocket
+
+    %a{ :href => "mailto:#{@email}", :class => 'link' }
+      %i.icon-2x.icon-envelope
