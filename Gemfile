@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'unicorn'
+
 gem 'haml-rails'
+gem 'newrelic_rpm'
+gem 'unicorn'
 
 # Gems used only for assets and not required
 # in production environments by default.
