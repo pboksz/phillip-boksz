@@ -4,6 +4,6 @@ class HomeController < ApplicationController
     @github_url = "http://www.github.com/pboksz"
     @linkedin_url = "http://www.linkedin.com/in/pboksz"
     @email = "pboksz@gmail.com"
-    @lunar_logic_url = "http://www.llp.pl"
+    @lunar_logic_url = "http://www.lunarlogic.io"
   end
 end
