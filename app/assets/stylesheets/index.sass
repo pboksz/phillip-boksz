@@ -1,13 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:700)
 @import 'compass'
 
-$background: honeydew
+$background: #c1d1b9
 $foreground: darkslategrey
 
 body
-  background-color: $background
   font-family: 'Lato', sans-serif
   text-align: center
+  background-color: $background
+  background-image: repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)), linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))
+  background-size: 70px 120px
 
 .container
   @include border-radius(50px)
@@ -33,6 +35,7 @@ body
     text-decoration: none
     display: inline-block
     width: 54px
+    font-size: 2em
 
     &:hover
       @include transform(scale(1.5) rotate(360deg))
