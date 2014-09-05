@@ -7,13 +7,13 @@
 
   .links
     = link_to @github_url, :class => 'link', :target => '_blank' do
-      %i.icon-2x.icon-github
+      = icon('github')
 
     = link_to @linkedin_url, :class => 'link', :target => '_blank' do
-      %i.icon-2x.icon-linkedin-sign
+      = icon('linkedin-square')
 
     = link_to @lunar_logic_url, :class => 'link', :target => '_blank' do
-      %i.icon-2x.icon-rocket
+      = icon('rocket')
 
     %a{ :href => "mailto:#{@email}", :class => 'link' }
-      %i.icon-2x.icon-envelope
+      = icon('envelope')
