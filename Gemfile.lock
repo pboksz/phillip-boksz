@@ -47,7 +47,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    font-awesome-sass (4.2.0)
+    font-awesome-sass (4.1.0)
       sass (~> 3.2)
     fssm (0.2.10)
     haml (3.1.7)
@@ -124,7 +124,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails
-  font-awesome-sass
+  font-awesome-sass (= 4.1.0)
   haml-rails
   newrelic_rpm
   rails (= 3.2.13)
