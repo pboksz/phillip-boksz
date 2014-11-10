@@ -3,10 +3,10 @@
   .name= @name
   .links
     = link_to @github_url, :class => 'link', :target => '_blank' do
-      = icon('github')
+      %i.fa.fa-github
     = link_to @linkedin_url, :class => 'link', :target => '_blank' do
-      = icon('linkedin-square')
+      %i.fa.fa-linkedin-square
     = link_to @lunar_logic_url, :class => 'link', :target => '_blank' do
-      = icon('rocket')
+      %i.fa.fa-rocket
     %a{ :href => "mailto:#{@email}", :class => 'link' }
-      = icon('envelope')
+      %i.fa.fa-envelope

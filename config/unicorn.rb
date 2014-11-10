@@ -1,5 +1,5 @@
 # How many workers?
-worker_processes 2
+worker_processes 1
 
 # Load app into the master before forking workers for super-fast worker spawn times
 preload_app true
