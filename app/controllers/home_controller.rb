@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @name = 'Phillip Boksz'
     @gravatar_url = "http://www.gravatar.com/avatar/#{Digest::MD5::hexdigest('pboksz@gmail.com')}?s=200"
     @github_url = "http://www.github.com/pboksz"
     @linkedin_url = "http://www.linkedin.com/in/pboksz"
