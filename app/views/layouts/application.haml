@@ -1,11 +1,10 @@
 !!!
 %html
   %head
-    %title Phillip Boksz | Programmer and Gamer
+    %title= 'Phillip Boksz | Programmer and Gamer'
     %meta{ :name => :description, :content => 'Phillip Boksz is a professional full stack web developer' }
     %meta{ :name => :keywords, :content => 'programmer, website, developer, coder, designer, web development, ruby, rails, ruby on rails, javascript, mysql, coffeescript, mongodb, java, gamer, games, board games, video games' }
-    = stylesheet_link_tag "application", :media => "all"
-    = javascript_include_tag "application"
+    = stylesheet_link_tag 'application', :media => 'all', 'data-turbolinks-track' => true
     = csrf_meta_tags
     %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1, maximum-scale=1' }
 
