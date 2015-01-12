@@ -33,5 +33,6 @@ gem 'haml-rails'
 
 group :development, :production do
   gem 'newrelic_rpm'
+  gem 'rails_12factor'
   gem 'unicorn'
 end
