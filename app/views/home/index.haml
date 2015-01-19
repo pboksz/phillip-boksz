@@ -1,12 +1,12 @@
 .container
-  .gravatar= image_tag gravatar_url, :alt => name
-  .name= @name
+  .gravatar= image_tag gravatar_url, alt: name
+  .name= name
   .links
-    = link_to github_url, :class => 'link', :target => '_blank' do
+    = link_to github_url, class: 'link', target: '_blank' do
       %i.fa.fa-github
-    = link_to linkedin_url, :class => 'link', :target => '_blank' do
+    = link_to linkedin_url, class: 'link', target: '_blank' do
       %i.fa.fa-linkedin-square
-    = link_to lunar_logic_url, :class => 'link', :target => '_blank' do
+    = link_to lunar_logic_url, class: 'link', target: '_blank' do
       %i.fa.fa-rocket
-    %a{ :href => "mailto:#{email}", :class => 'link' }
+    %a{ href: "mailto:#{email}", class: 'link' }
       %i.fa.fa-envelope
