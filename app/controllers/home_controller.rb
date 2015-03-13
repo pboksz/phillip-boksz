@@ -3,6 +3,14 @@ class HomeController < ApplicationController
 
   end
 
+  def work
+
+  end
+
+  def games
+
+  end
+
   def travel
 
   end
