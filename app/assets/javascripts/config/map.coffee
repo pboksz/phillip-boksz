@@ -1,10 +1,11 @@
 $(document).on 'ready page:load', ->
   element = $('#travel-map')
-  home = new google.maps.LatLng(50.0596025, 19.9507136)
+  home = new google.maps.LatLng(50.0467656, 20.0048731)
   options =
     zoom: 3
     minZoom: 3
     center: home
+    disableDefaultUI: true
 
   map = new google.maps.Map(element[0], options)
   $.each visitedLocations, (index, location) ->
