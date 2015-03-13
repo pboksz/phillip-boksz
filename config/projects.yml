@@ -1,39 +1,40 @@
 - name: 'Diamond Clinic'
   link: 'http://diamondclinic.eu'
   github: 'https://github.com/pboksz/diamond-clinic'
+  image: 'projects/diamond_clinic.png'
   tech: ['ruby on rails', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: ''
 
 - name: 'Wedding Website'
   link: 'http://ilovebasia.com'
   github: 'https://github.com/pboksz/wedding-site'
+  image: 'projects/wedding_site.png'
   tech: ['ruby on rails', 'coffeescript', 'mysql', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: ''
 
 - name: 'Steam Card Tracker'
   link: 'http://steam.boksz.info'
   github: 'https://github.com/pboksz/steam-card-tracker'
+  image: 'projects/steam_card_tracker.png'
   tech: ['ruby on rails', 'angularjs', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'highcharts', 'unicorn', 'travis ci', 'heroku']
+  description: ''
+
+- name: 'The Classic Look Salon'
+  github: 'https://github.com/pboksz/classic-look'
+  image: 'projects/the_classic_look_salon.png'
+  tech: ['ruby on rails', 'haml', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: ''
 
 - name: 'AdminAuth Gem'
   link: 'https://rubygems.org/gems/admin_auth'
   github: 'https://github.com/pboksz/admin_auth'
+  image: 'projects/admin_auth.png'
   tech: ['ruby', 'rspec', 'haml', 'bcrypt', 'rails']
   description: ''
 
 - name: 'RecursiveStruct Gem'
   link: 'https://rubygems.org/gems/recursive_struct'
   github: 'https://github.com/pboksz/recursive_struct'
+  image: 'projects/recursive_struct.png'
   tech: ['ruby', 'rspec']
-  description: ''
-
-- name: 'The Classic Look Salon (Ruby)'
-  github: 'https://github.com/pboksz/classic-look'
-  tech: ['ruby on rails', 'haml', 'sass', 'unicorn', 'travis ci', 'heroku']
-  description: ''
-
-- name: 'The Classic Look Salon (Java)'
-  github: 'https://github.com/pboksz/classic-look-java'
-  tech: ['java', 'google appengine']
   description: ''
