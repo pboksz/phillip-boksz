@@ -3,10 +3,10 @@
   .name= name
   .links
     = link_to github_url, class: 'link', target: '_blank' do
-      %i.fa.fa-github
+      = icon('github')
     = link_to linkedin_url, class: 'link', target: '_blank' do
-      %i.fa.fa-linkedin-square
+      = icon('linkedin-square')
     = link_to lunar_logic_url, class: 'link', target: '_blank' do
-      %i.fa.fa-rocket
+      = icon('rocket')
     %a{ href: "mailto:#{email}", class: 'link' }
-      %i.fa.fa-envelope
+      = icon('envelope')
