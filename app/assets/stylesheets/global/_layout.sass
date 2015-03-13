@@ -1,34 +1,5 @@
 body
   text-align: center
-  background-color: $background
   background-image: repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)), linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))
   background-size: 70px 120px
   margin: 0
-
-.container
-  @include border-radius(50px)
-  background-color: $foreground
-  width: 280px
-  margin: 6% auto 0
-  padding: 40px 10px
-
-  .gravatar
-    img
-      @include border-radius(100%)
-      border: 8px solid $background
-
-  .name
-    font-size: 2.4em
-    margin: 0.4em 0
-
-  .link
-    @include border-radius(100%)
-    @include transition(all 0.5s ease-in-out)
-    color: $background
-    text-decoration: none
-    display: inline-block
-    width: 54px
-    font-size: 2em
-
-    &:hover
-      @include transform(scale(1.5) rotate(360deg))
