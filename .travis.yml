@@ -1,0 +1,16 @@
+language: ruby
+bundler_args: --without development
+rvm:
+  - 2.2.0
+script:
+  - echo
+deploy:
+  provider: heroku
+  strategy: git
+  api_key:
+    secure: ImimzrrVLOLgJ8kSHjOU/5xr7IZNZrDL8DXrOpcwjrCDJx3SihfUm+Q1gP9R6rAV9RcXca3ks2nybqsp/V5TNHwvhyeMnLlmsoPEhHg0vc5bn5KlHzxGW+H5Vm4UxOMfKX0KvhQFTbcHHP75jijb613i4yxhEIIBAHkg6+AItSk=
+  app: phillip-boksz
+  on:
+    repo: pboksz/phillip-boksz
+notifications:
+  email: false
