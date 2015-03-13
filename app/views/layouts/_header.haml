@@ -1,0 +1,14 @@
+%header{ role: 'banner' }
+  .left
+    .gravatar= image_tag t('header.gravatar_url'), alt: t('header.name')
+  .right
+    .name= t('header.name')
+    .links
+      = link_to t('header.github_url'), target: '_blank' do
+        = icon('github')
+      = link_to t('header.linkedin_url'), target: '_blank' do
+        = icon('linkedin-square')
+      = link_to t('header.lunar_logic_url'), target: '_blank' do
+        = icon('rocket')
+      %a{ href: "mailto:#{t('header.email')}" }
+        = icon('envelope')
