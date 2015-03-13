@@ -3,7 +3,7 @@ class HomeController < ApplicationController
 
   end
 
-  def work
+  def projects
 
   end
 

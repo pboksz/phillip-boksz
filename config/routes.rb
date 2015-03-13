@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/work' => 'home#work'
+  get '/projects' => 'home#work'
   get '/games' => 'home#games'
   get '/travel' => 'home#travel'
 
