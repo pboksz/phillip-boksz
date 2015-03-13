@@ -9,4 +9,8 @@ class HomeController < ApplicationController
       lunar_logic_url: 'http://www.lunarlogic.io'
     }
   end
+
+  def travel
+
+  end
 end
