@@ -8,11 +8,12 @@ $(document).on 'ready page:load', ->
 
   map = new google.maps.Map(element[0], options)
   $.each visitedLocations, (index, location) ->
-    marker = addMarker(map, location[1], location[2])
+    addMarker(map, location[0], location[1], location[2])
 
-addMarker = (map, lat, lng) ->
+addMarker = (map, location, lat, lng) ->
   new google.maps.Marker
     map: map
+    title: location
     position: new google.maps.LatLng(lat, lng)
 
 visitedLocations =  [
@@ -62,6 +63,8 @@ visitedLocations =  [
   ['Heviz, Hungary', 46.796554, 17.182532]
   ['Prague, Czech Republic', 50.0596696, 14.4656239]
   ['Dublin, Ireland', 53.3243201, -6.251695]
+  ['Thessaloniki, Greece', 40.6211925, 22.9460273]
+  ['Kallithea, Halkidiki, Greece', 40.0747065, 23.4457398]
 
   # Asia
   ['Hong Kong, China', 22.3700556, 114.1223784]
