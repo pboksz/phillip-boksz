@@ -3,7 +3,9 @@
   %head
     %title= 'Phillip Boksz | Programmer and Gamer'
     %meta{ name: :description, content: 'Phillip Boksz is a professional full stack web developer' }
-    %meta{ name: :keywords, content: 'programmer, website, developer, coder, designer, web development, ruby, rails, ruby on rails, javascript, mysql, coffeescript, mongodb, java, gamer, games, board games, video games' }
+    %meta{ name: :keywords, content: 'programmer, website, developer, coder, designer, web development, ruby, rails, ruby on rails, javascript, mysql, coffeescript, mongodb, java, traveler, gamer, games, board games, video games' }
+    = javascript_include_tag '//maps.google.com/maps/api/js?v=3&sensor=false'
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = csrf_meta_tags
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' }
