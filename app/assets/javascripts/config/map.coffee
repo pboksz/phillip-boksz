@@ -42,7 +42,30 @@ visitedLocations =  [
   ['Victoria, British Columbia, Canada', 48.4266797, -123.3584175],
   # Carribean
   ['Puerto Plata, Dominican Republic', 19.7892025, -70.686083],
-  # Europe
   # Asia
+  ['Hong Kong, China', 22.3700556, 114.1223784]
+  ['Macau, China', 22.1634178, 113.5629425]
+  ['Tokyo, Japan', 35.673343, 139.710388]
+  # Europe
+  ['Kraków, Poland', 50.0467656, 20.0048731],
+  ['Warszawa, Poland', 52.232938, 21.0611941],
+  ['Gdańsk, Poland', 54.3610873, 18.6900271],
+  ['Poznan, Poland', 52.4005285, 16.9016658],
+  ['Wrocław, Poland', 51.1270779, 16.9918639],
+  ['Opoczno, Poland', 51.377272, 20.2747472]
+  ['Stalowa Wola, Poland', 50.5661941, 22.0162866],
+  ['Suwałki, Poland', 54.1027135, 22.9291278],
+  ['Zambrów, Poland', 52.9761599, 22.2472449],
+  ['Berlin, Germany', 52.5075419, 13.4251364],
+  ['Paris, France', 48.8588589, 2.3470599],
+  ['Nice, France', 43.7031905, 7.252817],
+  ['Fontainebleau, France', 48.4235795, 2.6817304],
+  ['Monaco', 43.7383229, 7.4244581],
+  ['Barcelona, Spain', 41.39479, 2.1487679],
+  ['London, England', 51.5286416,-0.1015987],
+  ['Copenhagen, Denmark', 55.6712674, 12.5608388],
+  ['Heviz, Hungary', 46.796554, 17.182532],
+  ['Prague, Czech Republic', 50.0596696, 14.4656239],
+  ['Dublin, Ireland', 53.3243201, -6.251695],
 ]
 
