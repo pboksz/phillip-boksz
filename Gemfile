@@ -21,6 +21,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Use haml for views
 gem 'haml-rails'
+# Gem for recursive structs
+gem 'recursive_struct'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
