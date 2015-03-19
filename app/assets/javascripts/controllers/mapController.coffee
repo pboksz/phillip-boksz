@@ -8,7 +8,7 @@ $(document).on 'ready page:load', ->
     disableDefaultUI: true
 
   map = new google.maps.Map(element[0], options)
-  $.each visitedLocations, (index, location) ->
+  $.each locations, (index, location) ->
     addMarker(map, location[0], location[1], location[2])
 
 addMarker = (map, location, lat, lng) ->
@@ -17,7 +17,7 @@ addMarker = (map, location, lat, lng) ->
     title: location
     position: new google.maps.LatLng(lat, lng)
 
-visitedLocations =  [
+locations = [
   # North America
   ['New Jersey, USA', 40.1430058, -74.7311156]
   ['New York, USA,', 40.7033127, -73.979681]
@@ -72,4 +72,3 @@ visitedLocations =  [
   ['Macau, China', 22.1634178, 113.5629425]
   ['Tokyo, Japan', 35.673343, 139.710388]
 ]
-
