@@ -4,3 +4,4 @@
 
 #= require services/locationsService
 #= require controllers/mapController
+#= require controllers/projectsController
