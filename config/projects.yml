@@ -2,6 +2,9 @@
   link: 'http://diamondclinic.eu'
   github: 'https://github.com/pboksz/diamond-clinic'
   image: 'projects/diamond_clinic.png'
+  anchor: 'diamond_clinic'
+  next: 'wedding_website'
+  prev: 'recursive_struct'
   tech: ['ruby on rails', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site for a private medical clinic in Kraków, Poland. The client needed a site to put up information
@@ -14,6 +17,9 @@
   link: 'http://ilovebasia.com'
   github: 'https://github.com/pboksz/wedding-site'
   image: 'projects/wedding_site.png'
+  anchor: 'wedding_website'
+  next: 'steam_card_tracker'
+  prev: 'diamond_clinic'
   tech: ['ruby on rails', 'coffeescript', 'mysql', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site for information about my wedding. It has all the information guests need, as well as a
@@ -25,6 +31,9 @@
   link: 'http://steam.boksz.info'
   github: 'https://github.com/pboksz/steam-card-tracker'
   image: 'projects/steam_card_tracker.png'
+  anchor: 'steam_card_tracker'
+  next: 'classic_look'
+  prev: 'wedding_website'
   tech: ['ruby on rails', 'angularjs', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'highcharts', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site that tracks the prices of Steam trading cards. It parses the html of the page from the community
@@ -35,6 +44,9 @@
   link: 'http://classic-look.herokuapp.com'
   github: 'https://github.com/pboksz/classic-look'
   image: 'projects/the_classic_look_salon.png'
+  anchor: 'classic_look'
+  next: 'admin_auth'
+  prev: 'steam_card_tracker'
   tech: ['ruby on rails', 'haml', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site for a nail and hair salon in Verona, New Jersey, USA. The client wanted a simple informational
@@ -45,6 +57,9 @@
   link: 'https://rubygems.org/gems/admin_auth'
   github: 'https://github.com/pboksz/admin_auth'
   image: 'projects/admin_auth.png'
+  anchor: 'admin_auth'
+  next: 'recursive_struct'
+  prev: 'classic_look'
   tech: ['ruby', 'rspec', 'haml', 'bcrypt', 'rails']
   description: |
     This is a Ruby gem that extracts basic admin authentication for Rails. It is similar to devise, but is only
@@ -56,6 +71,9 @@
   link: 'https://rubygems.org/gems/recursive_struct'
   github: 'https://github.com/pboksz/recursive_struct'
   image: 'projects/recursive_struct.png'
+  anchor: 'recursive_struct'
+  next: 'diamond_clinic'
+  prev: 'admin_auth'
   tech: ['ruby', 'rspec']
   description: |
     This is a Ruby gem that adds a recursive abstraction to OpenStruct. It uses a similar implementation to OpenStruct

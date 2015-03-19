@@ -1,6 +1,6 @@
 .projects
   - PROJECTS.each do |project|
-    .project{ style: "background-image: url(#{image_url project.image})" }
+    .project{ id: project.anchor, style: "background-image: url(#{image_url project.image})" }
       .info
         .section.header
           .name= project.name
@@ -11,3 +11,8 @@
               = icon('github')
         .section= project.tech.join(' | ')
         .section= simple_format project.description
+        .section.move
+          = link_to "##{project.next}" do
+            = icon('caret-down')
+          = link_to "##{project.prev}" do
+            = icon('caret-up')
