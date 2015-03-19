@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-
+    render :travels
   end
 
   def projects
