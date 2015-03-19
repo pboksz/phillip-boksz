@@ -3,39 +3,61 @@
   github: 'https://github.com/pboksz/diamond-clinic'
   image: 'projects/diamond_clinic.png'
   tech: ['ruby on rails', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
-  description: ''
+  description: |
+    This is a site for a private medical clinic in Kraków, Poland. The client needed a site to put up information
+    about their doctors on staff, their current clinical trials, and basic directions and contact information.
+    The site also has a contact form, which emails the staff if someone requests and appoinment. There was a
+    requirement for an admin panel to view all the information collected and easily update the text for
+    each doctor and clinical trial. The website is in both Polish and English.
 
 - name: 'Wedding Website'
   link: 'http://ilovebasia.com'
   github: 'https://github.com/pboksz/wedding-site'
   image: 'projects/wedding_site.png'
   tech: ['ruby on rails', 'coffeescript', 'mysql', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
-  description: ''
+  description: |
+    This is a site for information about my wedding. It has all the information guests need, as well as a
+    comprehensive list of recommendations for staying in Kraków, Poland. It also has a feature to RSVP,
+    which adds a note to who accepted and rejected the invitation, as well as any private comments they left.
+    The website is in both Polish and English.
 
 - name: 'Steam Card Tracker'
   link: 'http://steam.boksz.info'
   github: 'https://github.com/pboksz/steam-card-tracker'
   image: 'projects/steam_card_tracker.png'
   tech: ['ruby on rails', 'angularjs', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'highcharts', 'unicorn', 'travis ci', 'heroku']
-  description: ''
+  description: |
+    This is a site that tracks the prices of Steam trading cards. It parses the html of the page from the community
+    market to get the low price for the day. It uses AngularJS to load all the information and HighCharts to render
+    a nice looking chart of all the min and max low prices for each day.
 
 - name: 'The Classic Look Salon'
   link: 'http://classic-look.herokuapp.com'
   github: 'https://github.com/pboksz/classic-look'
   image: 'projects/the_classic_look_salon.png'
   tech: ['ruby on rails', 'haml', 'sass', 'unicorn', 'travis ci', 'heroku']
-  description: ''
+  description: |
+    This is a site for a nail and hair salon in Verona, New Jersey, USA. The client wanted a simple informational
+    site, with contact information, a map, and basic pricing. I first wrote this in Java, and then rewrote it in
+    Ruby on Rails to make it easier to maintain.
 
 - name: 'AdminAuth Gem'
   link: 'https://rubygems.org/gems/admin_auth'
   github: 'https://github.com/pboksz/admin_auth'
   image: 'projects/admin_auth.png'
   tech: ['ruby', 'rspec', 'haml', 'bcrypt', 'rails']
-  description: ''
+  description: |
+    This is a Ruby gem that extracts basic admin authentication for Rails. It is similar to devise, but is only
+    the minimal part that I need for most of my projects. It is very light on configuration, and uses a specific
+    Admin model to store a properly encrypted password and email. It also contains the templates for login, and
+    admin edit, so you can easily add other admins. I use it in both Diamond Clinic, and the Wedding Website.
 
 - name: 'RecursiveStruct Gem'
   link: 'https://rubygems.org/gems/recursive_struct'
   github: 'https://github.com/pboksz/recursive_struct'
   image: 'projects/recursive_struct.png'
   tech: ['ruby', 'rspec']
-  description: ''
+  description: |
+    This is a Ruby gem that adds a recursive abstraction to OpenStruct. It uses a similar implementation to OpenStruct
+    that then creates nested RecursiveStruct objects when there is nested hashed attributes, and dynamically creates
+    getter and setter methods based on what methods are called on the RecursiveStruct object.
