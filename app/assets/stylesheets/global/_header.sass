@@ -4,31 +4,30 @@ header
   width: 100%
   z-index: 2
 
-  .left, .right
+  .left, .center, .right
     padding: 0.5em 0
     display: inline-block
     vertical-align: middle
 
-  .left
-    .gravatar
-      img
-        @include border-radius(100%)
-        width: 120px
-        height: 120px
-        border: 8px solid $font
+  .left, .right
+    font-size: 2.4em
+    width: 16%
 
-  .right
-    margin-left: 1em
-    .name
-      font-size: 2.4em
-    .links
-      a
-        @include border-radius(100%)
-        @include transition(all 0.5s ease-in-out)
-        color: $font
-        text-decoration: none
-        display: inline-block
-        width: 54px
-        font-size: 2em
-        &:hover
-          @include transform(scale(1.5) rotate(360deg))
+  .gravatar
+    img
+      @include border-radius(100%)
+      width: 120px
+      height: 120px
+      border: 8px solid $font
+
+  .links
+    a
+      @include border-radius(100%)
+      @include transition(all 0.5s ease-in-out)
+      color: $font
+      text-decoration: none
+      display: inline-block
+      font-size: 0.8em
+      margin: 0 0.2em
+      &:hover
+        @include transform(scale(1.5) rotate(360deg))

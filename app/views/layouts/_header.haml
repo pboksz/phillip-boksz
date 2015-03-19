@@ -1,9 +1,14 @@
 %header{ role: 'banner' }
-  .left
-    .gravatar= image_tag t('header.gravatar_url'), alt: t('header.name')
+  .center
+    = link_to root_path do
+      .gravatar= image_tag t('header.gravatar_url'), alt: t('header.name')
   .right
     .name= t('header.name')
     .links
+      = link_to projects_path do
+        = icon('briefcase')
+      = link_to travel_path do
+        = icon('globe')
       = link_to t('header.github_url'), target: '_blank' do
         = icon('github')
       = link_to t('header.linkedin_url'), target: '_blank' do
