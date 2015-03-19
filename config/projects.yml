@@ -20,6 +20,7 @@
   description: ''
 
 - name: 'The Classic Look Salon'
+  link: 'http://classic-look.herokuapp.com'
   github: 'https://github.com/pboksz/classic-look'
   image: 'projects/the_classic_look_salon.png'
   tech: ['ruby on rails', 'haml', 'sass', 'unicorn', 'travis ci', 'heroku']

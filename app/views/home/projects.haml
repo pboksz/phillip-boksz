@@ -1,4 +1,13 @@
 .projects
   - PROJECTS.each do |project|
-    .project
-      = image_tag project.image
+    .project{ style: "background-image: url(#{image_url project.image})" }
+      .info
+        .section.header
+          .name= project.name
+          .links
+            = link_to project.link, target: :_blank do
+              = icon('external-link-square')
+            = link_to project.github, target: :_blank do
+              = icon('github')
+        .section= project.tech.join(' | ')
+        .section= simple_format project.description
