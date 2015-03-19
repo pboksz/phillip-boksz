@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get '/projects' => 'home#projects'
   get '/games' => 'home#games'
-  get '/travel' => 'home#travel'
+  get '/travels' => 'home#travels'
 
   root 'home#index'
 end

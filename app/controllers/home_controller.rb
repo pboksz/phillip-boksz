@@ -11,7 +11,7 @@ class HomeController < ApplicationController
 
   end
 
-  def travel
+  def travels
 
   end
 end
