@@ -1,7 +1,5 @@
 %header{ role: 'banner' }
-  .center
-    .gravatar= image_tag t('header.gravatar_url'), alt: t('header.name')
-  .right
+  .left
     .name= t('header.name')
     .links
       = link_to projects_path do
@@ -16,3 +14,7 @@
         = icon('rocket')
       %a{ href: "mailto:#{t('header.email')}" }
         = icon('envelope')
+  .center
+    .gravatar= image_tag t('header.gravatar_url'), alt: t('header.name')
+  .right
+    .title= @title

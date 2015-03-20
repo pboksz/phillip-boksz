@@ -5,16 +5,21 @@
     background-repeat: no-repeat
     background-size: cover
     position: relative
+    .header, .info
+      position: absolute
+      right: 0
+    .header
+      width: 50%
+      z-index: 3
+      top: 40px
+      font-size: 2em
     .info
+      width: 50%
       background: $header
       position: absolute
       top: 150px
-      right: 0
-      width: 50%
       .section
         padding: 0.25em 2em
-      .header
-        font-size: 2em
       .move
         font-size: 2em
       .description
@@ -22,13 +27,15 @@
 
   @media screen and (max-width: 640px)
     .project
+      .header
+        width: 36%
+        top: 34px
+        font-size: 1em
       .info
         top: 100px
-        width: 75%
+        width: 70%
         .section
           padding: 0.25em 1em
           font-size: 0.8em
-        .header
-          font-size: 1em
         .move
           font-size: 1em

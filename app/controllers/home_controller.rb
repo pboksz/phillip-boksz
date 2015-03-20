@@ -12,6 +12,6 @@ class HomeController < ApplicationController
   end
 
   def travels
-
+    @title = t('travels.title')
   end
 end
