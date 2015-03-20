@@ -95,42 +95,65 @@
 - name: 'King of Tokyo (2011)'
   stars: 4
   expansions: []
-  description: ''
+  description: |
+    King of Tokyo is a wildly colorful, and fun game where you try to prove that you are the biggest, baddest
+    monster in Tokyo. You use dice throwing to attack, get energy, and victory point, with the goal of
+    either killing all the other monsters, or getting 20 victory points.
 
 - name: 'Kolejka (2011)'
   stars: 4
   expansions: ['Ogonek (2011)']
-  description: ''
+  description: |
+    Kolejka (Queue in English) is a Polish board game about the long queues to buy goods during communism.
+    It is very well made, and shows what actually happened pretty accurately, while still being very fun
+    to play. It even has stickers for each card so you can translate it to five different languages!
 
 - name: 'Magic: The Gathering (1993)'
   stars: 5
   expansions: []
-  description: ''
+  description: |
+    Magic is the best trading card game ever made. The depth and complexity of a game that has been around
+    since 1993 is unmatched, which leads to an amazing experience every time. There are multiple formats,
+    thousands of cards, and millions of players.
 
 - name: 'Monopoly: Deluxe Edition (1995)'
   stars: 1
   expansions: []
-  description: ''
+  description: |
+    Monopoly is the original board game, the one that always ends in flipped tables, and angry players.
+    This game is worth playing once, but it is not very much fun more than that. Seriously, flipping tables.
 
 - name: 'Munchkin Zombies (2011)'
   stars: 2.5
   expansions: []
-  description: ''
+  description: |
+    Munchkin Zombies is the zombie themed version of original Munchkin. You are an adventurer, kicking down
+    doors to fight monsters and get loot. It is a game you can play with a bunch of people, but it wildly
+    varies in play time.
 
 - name: 'Pandemic (2007)'
   stars: 4.5
   expansions: ['On The Brink (2009)']
-  description: ''
+  description: |
+    Pandemic is a cooperative game, in which the players are stuggling to ride the world of epidemics.
+    The game is very punishing and will beat you a lot before you get a win. The art is very nice,
+    and the peices are all well made. Overall, a great coop game.
 
 - name: 'Power Grid (2004)'
   stars: 4.5
   expansions: []
-  description: ''
+  description: |
+    Power Grid is a game about trying to power cities with power plants. There are a few different kinds,
+    and the gameplay changes between auctioning power plays, to buying resources, to building markets in cities.
+    There is a lot of math, but it is very fun. Who doesn't like math?
 
 - name: 'Puerto Rico (2002)'
   stars: 5
   expansions: []
-  description: ''
+  description: |
+    Puerto Rico is a fantastic resource management game. It is all about harvesting crops in the titular country
+    and shipping it off for victory points. Each turn you pick an action, and everyone gets the action, so there
+    is a lot of careful planning involved to maximize your turn!
 
 - name: 'Race for the Galaxy (2007)'
   stars: 4.5
