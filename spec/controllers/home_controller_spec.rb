@@ -3,6 +3,7 @@ require 'rails_helper'
 describe HomeController do
   describe 'GET #index' do
     before { get :index }
+    it { expect(assigns(:title)).to eq I18n.t('travels.title') }
     it { expect(response).to render_template :travels }
   end
 
