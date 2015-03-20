@@ -158,22 +158,34 @@
 - name: 'Race for the Galaxy (2007)'
   stars: 4.5
   expansions: ['The Gathering Storm (2008)']
-  description: ''
+  description: |
+    Race for the Galaxy is a card game where you build your galactic empire. It has a very interesting way to pay
+    to build things; The cards in your hand are also your currency. This game is complicated at first, because
+    there is no text (only symbols), but is amazingly fun once you get the hang of it.
 
 - name: 'The Resistance: Avalon (2012)'
   stars: 4.5
   expansions: []
-  description: ''
+  description: |
+    Avalon is a game for up to ten players where some of the players are evil. It is a game of deception and
+    discussion to try and uncover the evil player (or keeping your cover). It is a great game once all the players
+    get into it and properly discuss the situations at hand.
 
 - name: 'Risk: Star Wars (2006)'
   stars: 2
   expansions: []
-  description: ''
+  description: |
+    Risk is the classic territory conquering game. It should be played at least once, to know where the genre
+    originated, but can sometimes drag on for a very long time. Though sending in 20 troops for a massive dice
+    rolling battle is quite satisfying!
 
 - name: 'Settlers of Catan (1995)'
   stars: 5
   expansions: ['5-6 Player Extension (1996)', 'Cities & Knights (1998)', 'Cities & Knights: 5-6 Player Extension (2000)']
-  description: ''
+  description: |
+    Catan is quintessential German style board game. The base game is great, but adding the Cities & Knights expansion
+    makes it even better. I can safely say this is the most play (most worn) game I have. The fun of trading,
+    building and yelling about sheep, wheat, wood, brick, and ore is awesome.
 
 - name: 'Small World Underground (2011)'
   stars: 4
