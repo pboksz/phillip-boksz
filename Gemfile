@@ -22,7 +22,10 @@ gem 'haml-rails'
 # Gem for recursive structs
 gem 'recursive_struct'
 
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+group :test do
+  gem 'codeclimate-test-reporter', require: nil
+end
+
 group :development do
   gem 'spring'
   gem 'travis'
