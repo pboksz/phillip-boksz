@@ -190,19 +190,31 @@
 - name: 'Small World Underground (2011)'
   stars: 4
   expansions: []
-  description: ''
+  description: |
+    Small World is a fantasy themed, territory conquering game. The fun part of this game is that each race has
+    as special ability, and they are all mixed up, so the combinations are endless. It is all about playing on the
+    strengths of your race and defeating adjacent players' minions.
 
 - name: 'Strajk! Skok do Wolności (2013)'
   stars: 3.5
   expansions: []
-  description: ''
+  description: |
+    Strajk! (Strike in English) is a game about the start of the Polish Solidarity movement, that started in the
+    shipyards of Gdansk. It is similar to Dominion in game play, with added moving peices about a board.
+    The game is well made, and the educations value is awesome.
 
 - name: 'Taboo'
   stars: 3
   expansions: []
-  description: ''
+  description: |
+    Taboo is a party game where groups of two try to guess a word on a card, without saying an buzz words.
+    There is definitely an advantage to having a lot of inside jokes to help with getting the answer out
+    of your partner. This game is good for a lot of laughs and hectic fun.
 
 - name: 'Zombie Fluxx'
   stars: 3
   expansions: []
-  description: ''
+  description: |
+    Zombie Fluxx is a game with two basic rules: draw one, play one. But the rules change based on the cards played.
+    Sometimes this game takes on a mind of its own, but is always fun as a quick filler game that can be played
+    in less than 15 min (sometimes).
