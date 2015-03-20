@@ -4,7 +4,7 @@
   image: 'projects/diamond_clinic.png'
   anchor: 'diamond_clinic'
   next: 'wedding_website'
-  prev: 'recursive_struct'
+  prev: ''
   tech: ['ruby on rails', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site for a private medical clinic in Kraków, Poland. The client needed a site to put up information
@@ -72,7 +72,7 @@
   github: 'https://github.com/pboksz/recursive_struct'
   image: 'projects/recursive_struct.png'
   anchor: 'recursive_struct'
-  next: 'diamond_clinic'
+  next: ''
   prev: 'admin_auth'
   tech: ['ruby', 'rspec']
   description: |
