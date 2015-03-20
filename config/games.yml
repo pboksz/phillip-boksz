@@ -1,34 +1,144 @@
-- name: '7 Wonders'
-  year: '2010'
-  stars: 5
+- name: '7 Wonders (2010)'
+  stars: 4
+  expansions: ['Leaders (2011)', 'Cities (2012)']
   description: ''
 
-- name: '7 Wonders: Cities'
-  year: '2012'
-  stars: 5
+- name: 'Agricola (2007)'
+  stars: 4.5
+  expansions: []
   description: ''
 
-- name: '7 Wonders: Leaders'
-  year: '2011'
-  stars: 5
+- name: 'Apples to Apples'
+  stars: 1.5
+  expansions: []
   description: ''
 
-- name: 'Agricola'
-  year: '2007'
-  stars: 5
+- name: 'Boss Monster (2013)'
+  stars: 3
+  expansions: []
   description: ''
 
-- name: 'Bohnanza'
-  year: '1997'
-  stars: 5
+- name: 'Carcassonne (2000)'
+  stars: 3.5
+  expansions: ['Inns & Cathedrals (2002)', 'The Princess & the Dragon (2005)']
   description: ''
 
-- name: 'Bohnanza: Expansion'
-  year: '2010'
-  stars: 5
+- name: 'Caylus (2005)'
+  stars: 4
+  expansions: []
   description: ''
 
-- name: 'Boss Monster: The Dungeon Building Card Game'
-  year: '2013'
+- name: 'Dominion (2008)'
   stars: 5
+  expansions: ['Intrigue (2009)', 'Seaside (2009)', 'Prosperity (2010)', 'Cornucopia (2011)']
+  description: ''
+
+- name: 'Fasolki (1997)'
+  stars: 3.5
+  expansions: ['Rozszerzenie (2010)']
+  description: ''
+
+- name: 'Firefly (2013)'
+  stars: 4
+  expansions: []
+  description: ''
+
+- name: 'The Game of Life'
+  stars: 1.5
+  expansions: []
+  description: ''
+
+- name: 'Guillotine (1998)'
+  stars: 3.5
+  expansions: []
+  description: ''
+
+- name: 'Hive (2001)'
+  stars: 3.5
+  expansions: []
+  description: ''
+
+- name: 'King of Tokyo (2011)'
+  stars: 4
+  expansions: []
+  description: ''
+
+- name: 'Kolejka (2011)'
+  stars: 4
+  expansions: ['Ogonek (2011)']
+  description: ''
+
+- name: 'Magic: The Gathering (1993)'
+  stars: 5
+  expansions: []
+  description: ''
+
+- name: 'Monopoly: Deluxe Edition (1995)'
+  stars: 1
+  expansions: []
+  description: ''
+
+- name: 'Munchkin Zombies (2011)'
+  stars: 2.5
+  expansions: []
+  description: ''
+
+- name: 'Pandemic (2007)'
+  stars: 4.5
+  expansions: ['On The Brink (2009)']
+  description: ''
+
+- name: 'Power Grid (2004)'
+  stars: 4.5
+  expansions: []
+  description: ''
+
+- name: 'Puerto Rico (2002)'
+  stars: 5
+  expansions: []
+  description: ''
+
+- name: 'Race for the Galaxy (2007)'
+  stars: 4.5
+  expansions: ['The Gathering Storm (2008)']
+  description: ''
+
+- name: 'The Resistance: Avalon (2012)'
+  stars: 4.5
+  expansions: []
+  description: ''
+
+- name: 'Risk: Halo Wars (2009)'
+  stars: 2
+  expansions: []
+  description: ''
+
+- name: 'Risk: Star Wars (2006)'
+  stars: 2
+  expansions: []
+  description: ''
+
+- name: 'Settlers of Catan (1995)'
+  stars: 5
+  expansions: ['5-6 Player Extension (1996)', 'Cities & Knights (1998)', 'Cities & Knights: 5-6 Player Extension (2000)']
+  description: ''
+
+- name: 'Small World Underground (2011)'
+  stars: 4
+  expansions: []
+  description: ''
+
+- name: 'Strajk! Skok do Wolności (2013)'
+  stars: 3.5
+  expansions: []
+  description: ''
+
+- name: 'Taboo'
+  stars: 3
+  expansions: []
+  description: ''
+
+- name: 'Zombie Fluxx'
+  stars: 3
+  expansions: []
   description: ''
