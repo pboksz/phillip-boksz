@@ -1,62 +1,96 @@
 - name: '7 Wonders (2010)'
   stars: 4
   expansions: ['Leaders (2011)', 'Cities (2012)']
-  description: ''
+  description: |
+    7 Wonders is fantastic game for up to 8 players with the expansions. It plays like a Magic draft where you pick
+    cards to build resources which, in turn, help you construct buildings which gain your victory points.
+    It is easy to learn, easy to play, and loads of fun.
 
 - name: 'Agricola (2007)'
   stars: 4.5
   expansions: []
-  description: ''
+  description: |
+    Agricola is a very complex, but rewarding farm building game. The instructions are quite a few pages,
+    but it is worth learning. This game comes with a bunch card decks to increase or decrease complexity.
+    It is colorful, thematic, and an absolute blast to play.
 
 - name: 'Apples to Apples'
   stars: 1.5
   expansions: []
-  description: ''
+  description: |
+    Apples to Apples can be played with as many people as you want. It is a game where one person judges
+    everyones' card text combination. It is fun for the first few times, but once you know some of the funny
+    combos, the magic disappears. It is a PG version of Cards Against Humanity.
 
 - name: 'Boss Monster (2013)'
   stars: 3
   expansions: []
-  description: ''
+  description: |
+    Boss Monster lets you be the boss at the end of Super NES games. You build a dungeon, room by room,
+    to trap and kill questing adventurers. It has some great art on the cards (all 8-bit!), and is a
+    fun, quick game.
 
 - name: 'Carcassonne (2000)'
   stars: 3.5
   expansions: ['Inns & Cathedrals (2002)', 'The Princess & the Dragon (2005)']
-  description: ''
+  description: |
+    Carcassonne is a fun map building game. Each player gets a random square map tile and has to add it to
+    an ever growing board. He then uses his meeples to preform tasks to gain points on the placed tile.
+    The base game is relatively quick, and with more explansions, the game can get into the two hour range.
 
 - name: 'Caylus (2005)'
   stars: 4
   expansions: []
-  description: ''
+  description: |
+    Caylus is game where you are tasked as a master builder of a French castle. You need to upgrade the town,
+    as well, to help you build the castle sections effectively. It is a pretty complex games, with a lot of
+    peices, but it is very fun, once you get all the rules down.
 
 - name: 'Dominion (2008)'
   stars: 5
   expansions: ['Intrigue (2009)', 'Seaside (2009)', 'Prosperity (2010)', 'Cornucopia (2011)']
-  description: ''
+  description: |
+    Dominion is an amazing deck building game that one can play over and over again. Each game is different based
+    on the ten kingdom cards you use during your game. Each big expansion comes with 35 sets of kingdom cards,
+    so with many expansions the diversity is limitless.
 
 - name: 'Fasolki (1997)'
   stars: 3.5
   expansions: ['Rozszerzenie (2010)']
-  description: ''
+  description: |
+    Fasolki (Bohnanza in English) is a fun, fast, bean planting game. You get points for planting multiple of the
+    same kind in a row, and each turn lets you haggle and trade to other players. This game involves a lot of
+    frantic yelling in the trading phases.
 
 - name: 'Firefly (2013)'
   stars: 4
   expansions: []
-  description: ''
+  description: |
+    Firefly is a great thematic board game. All the characters from the show are there, and they can be part
+    of your crew. You have a Firefly class ship, and you need to get paid. You get jobs around the galaxy,
+    while evading the Reavers and the Alliance.
 
-- name: 'The Game of Life'
+- name: 'The Game of Life (1960)'
   stars: 1.5
   expansions: []
-  description: ''
+  description: |
+    The Game of Life is the classic game for the 60s. It is fun a few times, but it doesn't use much skill.
+    It is all luck of the spin. It is cool getting a profession, house, and family.
 
 - name: 'Guillotine (1998)'
   stars: 3.5
   expansions: []
-  description: ''
+  description: |
+    Guillotine is a chopping block card game. It is set during the French Revolution, with nobles in line.
+    A line you don't want to be in. Each turn, a noble gets chopped, and you get points for it.
 
 - name: 'Hive (2001)'
   stars: 3.5
   expansions: []
-  description: ''
+  description: |
+    Hive is a fantastic two player game that uses insects to try and overwhelm your opponent's queen bee.
+    It is a tad reminiscent of chess its is back and forth play style, and is a great brain teaser,
+    where thinking multiple moves ahead is advantageous.
 
 - name: 'King of Tokyo (2011)'
   stars: 4

@@ -4,6 +4,6 @@
       .header
         .name= game.name
         .stars= star_rating_tag(game.stars)
+        .expansions= game.expansions.join('<br>').html_safe
       .info
-        .section.expansions= game.expansions.join(' | ')
-        .section.description= game.description
+        .description= game.description
