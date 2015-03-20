@@ -20,6 +20,6 @@
       ga('create', 'UA-22236727-2', 'phillipboksz.com');
       ga('send', 'pageview');
 
-  %body
+  %body{ class: (:scroll if @scroll) }
     = render 'layouts/header'
     = yield

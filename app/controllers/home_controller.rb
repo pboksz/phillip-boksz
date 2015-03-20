@@ -9,6 +9,7 @@ class HomeController < ApplicationController
   end
 
   def games
+    @scroll = true
     @title = t('games.title')
   end
 
