@@ -9,7 +9,7 @@
               = icon('external-link-square')
             = link_to project.github, target: :_blank do
               = icon('github')
-        .section= project.tech.join(' | ')
+        .section.tech= project.tech.join(' | ')
         .section.description= project.description
         .section.move
           = link_to "##{project.next}", class: :next do

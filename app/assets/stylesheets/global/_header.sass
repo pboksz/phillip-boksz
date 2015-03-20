@@ -3,18 +3,26 @@ header
   position: fixed
   width: 100%
   z-index: 2
-
+  height: 150px
   .left, .center, .right
-    padding: 0.5em 0
     display: inline-block
     vertical-align: middle
-
   .left, .right
     font-size: 2.4em
-
   .gravatar
+    padding: 0.5em 0 0.25em
     img
       @include border-radius(100%)
       width: 120px
       height: 120px
       border: 8px solid $font
+
+  @media screen and (max-width: 640px)
+    height: 100px
+    .left, .right
+      font-size: 1.4em
+    .gravatar
+      img
+        width: 80px
+        height: 80px
+        border-width: 4px

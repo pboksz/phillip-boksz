@@ -8,7 +8,7 @@
     .info
       background: $header
       position: absolute
-      top: 200px
+      top: 150px
       right: 0
       width: 50%
       .section
@@ -19,3 +19,16 @@
         font-size: 2em
       .description
         text-align: justify
+
+  @media screen and (max-width: 640px)
+    .project
+      .info
+        top: 100px
+        width: 75%
+        .section
+          padding: 0.25em 1em
+          font-size: 0.8em
+        .header
+          font-size: 1em
+        .move
+          font-size: 1em
