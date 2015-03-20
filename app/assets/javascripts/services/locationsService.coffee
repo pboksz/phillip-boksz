@@ -28,7 +28,7 @@ america = [
   ['Grand Canyon, Arizona, USA',36.106965,-112.112997]
   ['Las Vegas, Nevada, USA',36.125,-115.175]
   ['Reno, Nevada, USA',39.5579311,-119.8508414]
-  ['Salt Lake City, Utah, USA',37.9251339,-104.7871876]
+  ['Salt Lake City, Utah, USA',40.776608,-111.920485]
   ['San Francisco, California, USA',37.7577,-122.4376]
   ['Sacramento, California, USA',38.5615405,-121.4429125]
   ['Seattle, Washington, USA',47.614848,-122.3359059]
