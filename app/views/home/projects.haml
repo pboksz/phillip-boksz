@@ -10,7 +10,7 @@
             = link_to project.github, target: :_blank do
               = icon('github')
         .section= project.tech.join(' | ')
-        .section= simple_format project.description
+        .section.description= project.description
         .section.move
           = link_to "##{project.next}", class: :next do
             = icon('caret-down')
