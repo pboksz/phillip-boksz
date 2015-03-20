@@ -33,6 +33,12 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :development, :test do
+  gem 'quiet_assets'
+  gem 'pry'
+  gem 'rspec-rails'
+end
+
 group :development, :production do
   gem 'unicorn'
 end
