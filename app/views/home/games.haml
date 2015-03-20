@@ -1,1 +1,9 @@
 .games
+  - GAMES.each do |game|
+    .game
+      .header
+        .name= game.name
+        .stars= star_rating_tag(game.stars)
+      .info
+        .section.expansions= simple_format(game.expansions.join('<br>'))
+        .section.description= game.description

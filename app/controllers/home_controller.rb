@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   end
 
   def games
-
+    @title = t('games.title')
   end
 
   def travels
