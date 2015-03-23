@@ -1,7 +1,7 @@
 en:
   meta:
     title: 'Phillip Boksz | Programmer and Gamer'
-    description: 'Phillip Boksz is a professional full stack web developer specializing in Ruby on Rails and Coffeescript'
+    description: 'Phillip Boksz is a professional full stack web developer specializing in Ruby on Rails and Coffeescript.'
     keywords: 'web, website, programmer, developer, coder, designer, web development, ruby, rails, ruby on rails, javascript, coffeescript, mysql, postgresql, mongodb, java, travels, gamer, games, board games, video games'
 
   header:
@@ -10,10 +10,9 @@ en:
     gravatar_url: 'http://www.gravatar.com/avatar/32a1dbf1c6aab0fc2be074726f38fbc2?s=200'
     github_url: 'http://www.github.com/pboksz'
     linkedin_url: 'http://www.linkedin.com/in/pboksz'
-    lunar_logic_url: 'http://www.lunarlogic.io'
 
   games:
     title: 'Board Game Collection'
 
   travels:
-    title: 'World Travel Pins'
+    title: 'World Travel Markers'
