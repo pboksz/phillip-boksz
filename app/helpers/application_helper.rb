@@ -11,4 +11,22 @@ module ApplicationHelper
 
     icons.html_safe
   end
+
+  def switch_project_tag(project, type)
+    if project.present? && type
+      link_to "##{project}", class: type do
+        icon(get_icon_from_type(type))
+      end
+    end
+  end
+
+  private
+
+  def get_icon_from_type(type)
+    case type
+      when :next; 'caret-down'
+      when :prev; 'caret-up'
+      else; nil
+    end
+  end
 end

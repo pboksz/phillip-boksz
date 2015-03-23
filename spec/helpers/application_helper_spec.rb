@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 describe ApplicationHelper do
+  def icons(type, times = 1)
+    "<i class=\"fa fa-#{type}\"></i>" * times
+  end
+
   describe '#star_rating_tag' do
     subject { helper.star_rating_tag(stars) }
 
@@ -60,7 +64,29 @@ describe ApplicationHelper do
     end
   end
 
-  def icons(type, times = 1)
-    "<i class=\"fa fa-#{type}\"></i>" * times
+  describe '#switch_project_tag' do
+    let(:project) { nil }
+    let(:type) { nil }
+    subject { helper.switch_project_tag(project, type) }
+
+    describe 'no project link or type' do
+      it { expect(subject).to be_nil }
+    end
+
+    describe 'has project link and type' do
+      let(:project) { 'project' }
+
+      describe 'next' do
+        let(:type) { :next }
+        it { expect(subject).to include 'a class="next" href="#project"' }
+        it { expect(subject).to include 'i class="fa fa-caret-down"' }
+      end
+
+      describe 'previous' do
+        let(:type) { :prev }
+        it { expect(subject).to include 'a class="prev" href="#project"' }
+        it { expect(subject).to include 'i class="fa fa-caret-up"' }
+      end
+    end
   end
 end

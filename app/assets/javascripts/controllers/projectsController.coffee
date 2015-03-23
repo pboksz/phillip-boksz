@@ -1,11 +1,10 @@
 $ ->
-  $('.move a').on 'click', (event) ->
+  $('.footer a').on 'click', (event) ->
     event.preventDefault()
-    nextProjectId = $(event.currentTarget).attr('href')
-    if nextProjectId != '#'
-      offset = $(nextProjectId).offset().top
-      $('html, body').animate { scrollTop: offset }, 500, ->
-        $(nextProjectId).focus()
+    if projectId = $(event.currentTarget).attr('href')
+      offset = $(projectId).offset().top
+      $('html, body').animate { scrollTop: offset }, 200, ->
+        $(projectId).focus()
 
   startTouch = null
   window.addEventListener 'touchstart', (event) ->
@@ -15,26 +14,24 @@ $ ->
     if project = $(event.srcElement).closest('.project')
       endTouch = event.changedTouches[0].screenY
       if startTouch < endTouch
-        prevProject(project)
+        switchProject(project, 'prev')
       else if startTouch > endTouch
-        nextProject(project)
+        switchProject(project, 'next')
 
   window.addEventListener 'mousewheel', (event) ->
     if project = $(event.srcElement).closest('.project')
       if event.wheelDelta > 0 # mouse wheel up
-        prevProject(project)
+        switchProject(project, 'prev')
       else if event.wheelDelta < 0 # mouse wheel down
-        nextProject(project)
+        switchProject(project, 'next')
 
   $('.project').keydown (event) ->
     if project = $(event.currentTarget).closest('.project')
       if event.which == 38 # up arrow
-        prevProject(project)
+        switchProject(project, 'prev')
       else if event.which == 40 # down arrow
-        nextProject(project)
+        switchProject(project, 'next')
 
-prevProject = (project) ->
-  project.find('.footer .prev').get(0).click()
-
-nextProject = (project) ->
-  project.find('.footer .next').get(0).click()
+switchProject = (project, type) ->
+  button = project.find(".footer .#{type}").get(0)
+  button.click() if button

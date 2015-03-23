@@ -12,7 +12,5 @@
         .section.tech= project.tech.join(' | ')
         .section.description= project.description
       .footer
-        = link_to "##{project.next}", class: :next do
-          = icon('caret-down')
-        = link_to "##{project.prev}", class: :prev do
-          = icon('caret-up')
+        = switch_project_tag(project.next, :next)
+        = switch_project_tag(project.prev, :prev)
