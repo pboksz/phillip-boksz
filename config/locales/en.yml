@@ -1,4 +1,9 @@
 en:
+  meta:
+    title: 'Phillip Boksz | Programmer and Gamer'
+    description: 'Phillip Boksz is a professional full stack web developer specializing in Ruby on Rails and Coffeescript'
+    keywords: 'web, website, programmer, developer, coder, designer, web development, ruby, rails, ruby on rails, javascript, coffeescript, mysql, postgresql, mongodb, java, travels, gamer, games, board games, video games'
+
   header:
     name: 'Phillip Boksz'
     email: 'pboksz@gmail.com'
