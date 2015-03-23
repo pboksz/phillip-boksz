@@ -14,7 +14,6 @@ describe HomeController do
 
   describe 'GET #games' do
     before { get :games }
-    it { expect(assigns(:scroll)).to eq true }
     it { expect(assigns(:title)).to eq I18n.t('games.title') }
     it { expect(response).to render_template :games }
   end

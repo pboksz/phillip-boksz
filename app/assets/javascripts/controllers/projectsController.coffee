@@ -3,7 +3,7 @@ $ ->
     event.preventDefault()
     if projectId = $(event.currentTarget).attr('href')
       offset = $(projectId).offset().top
-      $('html, body').animate { scrollTop: offset }, 200, ->
+      $('html, body').animate { scrollTop: offset }, 200, 'linear', ->
         $(projectId).focus()
 
   startTouch = null
