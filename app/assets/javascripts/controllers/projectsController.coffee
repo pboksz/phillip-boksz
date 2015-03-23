@@ -34,7 +34,7 @@ $ ->
         nextProject(project)
 
 prevProject = (project) ->
-  project.find('.move .prev').get(0).click()
+  project.find('.footer .prev').get(0).click()
 
 nextProject = (project) ->
-  project.find('.move .next').get(0).click()
+  project.find('.footer .next').get(0).click()
