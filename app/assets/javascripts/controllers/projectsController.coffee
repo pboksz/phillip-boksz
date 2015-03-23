@@ -18,11 +18,20 @@ $ ->
       else if startTouch > endTouch
         switchProject(project, 'next')
 
+  # Webkit
   window.addEventListener 'mousewheel', (event) ->
     if project = $(event.srcElement).closest('.project')
       if event.wheelDelta > 0 # mouse wheel up
         switchProject(project, 'prev')
       else if event.wheelDelta < 0 # mouse wheel down
+        switchProject(project, 'next')
+
+  # Firefox
+  window.addEventListener 'DOMMouseScroll', (event) ->
+    if project = $(event.target).closest('.project')
+      if event.detail < 0 # mouse wheel up
+        switchProject(project, 'prev')
+      else if event.detail > 0 # mouse wheel down
         switchProject(project, 'next')
 
   $('.project').keydown (event) ->
