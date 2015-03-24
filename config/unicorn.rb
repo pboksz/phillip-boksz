@@ -1,14 +1,7 @@
-# How many workers?
 worker_processes 2
-
-# Load app into the master before forking workers for super-fast worker spawn times
 preload_app true
-
-# Use port 3000
 listen 3000
-
-# Use timeout
-timeout 15
+timeout 16
 
 before_fork do |server, worker|
   Signal.trap 'TERM' do
