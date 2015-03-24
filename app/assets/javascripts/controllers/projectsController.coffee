@@ -1,4 +1,10 @@
 $ ->
+  addSwipeListener()
+  addMouseWheelListener()
+  addArrowKeysListener()
+  changeProjectOnClick()
+
+changeProjectOnClick = ->
   $('.footer a').on 'click', (event) ->
     event.preventDefault()
     if projectId = $(event.currentTarget).attr('href')
@@ -6,6 +12,7 @@ $ ->
       $('html, body').animate { scrollTop: offset }, 200, 'linear', ->
         $(projectId).focus()
 
+addSwipeListener = ->
   startTouch = null
   window.addEventListener 'touchstart', (event) ->
     startTouch = event.targetTouches[0].screenY
@@ -18,6 +25,7 @@ $ ->
       else if startTouch > endTouch
         switchProject(project, 'next')
 
+addMouseWheelListener = ->
   # Webkit
   window.addEventListener 'mousewheel', (event) ->
     if project = $(event.srcElement).closest('.project')
@@ -34,6 +42,7 @@ $ ->
       else if event.detail > 0 # mouse wheel down
         switchProject(project, 'next')
 
+addArrowKeysListener = ->
   $('.project').keydown (event) ->
     if project = $(event.currentTarget).closest('.project')
       if event.which == 38 # up arrow
