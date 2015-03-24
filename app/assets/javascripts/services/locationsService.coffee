@@ -38,6 +38,7 @@ america = [
 canada = [
   ['Montreal, Quebec, Canada',45.5601451,-73.7120832]
   ['Quebec, Quebec, Canada',46.8580074,-71.3460728]
+  ['Halifax, Nova Scotia, Canada',44.6492307,-63.6219742]
   ['Vancouver, British Columbia, Canada',49.2569684,-123.1239135]
   ['Victoria, British Columbia, Canada',48.4266797,-123.3584175]
 ]
