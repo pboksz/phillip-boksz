@@ -1,3 +1,5 @@
+#= require services/locationsService
+
 $(document).on 'ready page:load', ->
   element = $('#travel-map')
   if element.length > 0
