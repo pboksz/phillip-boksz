@@ -12,10 +12,22 @@ $(document).on 'ready page:load', ->
 
     map = new google.maps.Map(element[0], options)
     $.each Location.all(), (index, location) ->
-      addMarker(map, location[0], location[1], location[2])
+      marker = addMarker(map, location[0], location[1], location[2])
+      tooltip = addTooltip(map, marker, location[0])
+      addEventListeners(map, marker, tooltip)
 
 addMarker = (map, location, lat, lng) ->
   new google.maps.Marker
     map: map
     title: location
     position: new google.maps.LatLng(lat, lng)
+
+addTooltip = (map, marker, location) ->
+  new google.maps.InfoWindow
+    content: location
+
+addEventListeners = (map, marker, tooltip) ->
+  google.maps.event.addListener marker, 'click', ->
+    tooltip.open(map, marker)
+  google.maps.event.addListener map, 'click', ->
+    tooltip.close()
