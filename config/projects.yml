@@ -9,7 +9,7 @@
   description: |
     This is a site for a private medical clinic in Kraków, Poland. The client needed a site to put up information
     about their doctors on staff, their current clinical trials, and basic directions and contact information.
-    The site also has a contact form, which emails the staff if someone requests and appoinment. There was a
+    The site also has a contact form, which emails the staff if someone requests an appoinment. There was a
     requirement for an admin panel to view all the information collected and easily update the text for
     each doctor and clinical trial. The website is in both Polish and English.
 
