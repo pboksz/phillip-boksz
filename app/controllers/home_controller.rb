@@ -15,4 +15,8 @@ class HomeController < ApplicationController
   def travels
     @title = t('travels.title')
   end
+
+  def sitemap
+    render :sitemap, layout: false
+  end
 end
