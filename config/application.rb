@@ -7,7 +7,7 @@ require 'sprockets/railtie'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-PROJECTS = YAML.load(File.read(File.expand_path('../projects.yml', __FILE__))).map { |game| RecursiveStruct.new(game) }
+PROJECTS = YAML.load(File.read(File.expand_path('../projects.yml', __FILE__))).map { |project| RecursiveStruct.new(project) }
 GAMES = YAML.load(File.read(File.expand_path('../games.yml', __FILE__))).map { |game| RecursiveStruct.new(game) }
 
 module PhillipBoksz
