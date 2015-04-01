@@ -72,24 +72,10 @@
   github: 'https://github.com/pboksz/recursive_struct'
   image: 'projects/recursive_struct.png'
   anchor: 'recursive_struct'
-  next: 'website_tools'
+  next: ''
   prev: 'admin_auth'
   tech: ['ruby', 'rspec']
   description: |
     This is a Ruby gem that adds a recursive abstraction to OpenStruct. It uses a similar implementation to OpenStruct
     that then creates nested RecursiveStruct objects when there is nested hashed attributes, and dynamically creates
     getter and setter methods based on what methods are called on the RecursiveStruct object.
-
-- name: 'WebsiteTools Gem'
-  link: 'https://rubygems.org/gems/website_tools'
-  github: 'https://github.com/pboksz/website_tools'
-  image: 'projects/website_tools.png'
-  anchor: 'website_tools'
-  next: ''
-  prev: 'recursive_struct'
-  tech: ['ruby', 'rspec']
-  description: |
-    This is a Ruby gem that adds Google analytics and a sitemap based on a configuration file to a project.
-    It extracts something that I have in all my projects into one simple gem so that there can be less
-    duplication of code throughout my projects. In the future it could be extended to add any configuration
-    that is used in multiple projects.
