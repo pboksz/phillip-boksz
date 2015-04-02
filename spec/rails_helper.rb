@@ -41,4 +41,9 @@ RSpec.configure do |config|
   # The different available types are documented in the features, such as in
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
+
+  config.before type: :feature do
+    page.driver.block_unknown_urls
+    page.driver.browser.set_skip_image_loading(true)
+  end
 end

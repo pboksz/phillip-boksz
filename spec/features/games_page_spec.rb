@@ -1,10 +1,7 @@
 require 'rails_helper'
 
 describe 'Games page' do
-  before do
-    page.driver.block_unknown_urls
-    visit games_path
-  end
+  before { visit games_path }
 
   it 'shows games' do
     expect(page).to have_text I18n.t('games.title')

@@ -1,10 +1,7 @@
 require 'rails_helper'
 
 describe 'Home page' do
-  before do
-    page.driver.block_unknown_urls
-    visit root_path
-  end
+  before { visit root_path }
 
   it 'has header info' do
     expect(page).to have_text I18n.t('header.name')
