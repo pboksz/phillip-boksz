@@ -37,6 +37,8 @@ group :production do
 end
 
 group :development, :test do
+  gem 'capybara'
+  gem 'capybara-webkit'
   gem 'quiet_assets'
   gem 'pry'
   gem 'rspec-rails'
