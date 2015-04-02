@@ -6,7 +6,8 @@ describe 'Home page' do
     visit root_path
   end
 
-  it 'has proper links' do
+  it 'has header info' do
+    expect(page).to have_text I18n.t('header.name')
     expect(page).to have_link '', href: projects_path
     expect(page).to have_link '', href: games_path
     expect(page).to have_link '', href: travels_path
@@ -16,8 +17,7 @@ describe 'Home page' do
   end
 
   it 'shows map' do
-    expect(page).to have_text I18n.t('header.name')
     expect(page).to have_text I18n.t('travels.title')
-    expect(page).to have_selector('#travel-map')
+    expect(page).to have_selector '#travel-map'
   end
 end
