@@ -3,7 +3,7 @@ bundler_args: --without development
 rvm:
   - 2.2.0
 script:
-  - bundle exec rspec spec
+  - xvfb-run bundle exec rspec spec
 addons:
   code_climate:
     repo_token:
