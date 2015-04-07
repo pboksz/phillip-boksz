@@ -70,7 +70,8 @@ europe = [
   ['Dublin, Ireland',53.3243201,-6.251695]
   ['Thessaloniki, Greece',40.6211925,22.9460273]
   ['Kallithea, Halkidiki, Greece',40.0747065,23.4457398]
-  ['Vienna Austria',48.2206849,16.3800599]
+  ['Vienna, Austria',48.2206849,16.3800599]
+  ['Brno, Czech Republic',49.2020701,16.5779606]
 ]
 
 asia = [
