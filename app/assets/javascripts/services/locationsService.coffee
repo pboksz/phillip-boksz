@@ -32,6 +32,9 @@ america = [
   ['San Francisco, California, USA',37.7577,-122.4376]
   ['Sacramento, California, USA',38.5615405,-121.4429125]
   ['Seattle, Washington, USA',47.614848,-122.3359059]
+  ['Duck, North Carolina, USA',36.19128,-75.7564749]
+  ['Savannah, Georgia, USA',32.0405369,-81.2003759]
+  ['Richmond, Virginia, USA',37.524661,-77.4932614]
   ['Denver, Colorado, USA',39.7643389,-104.8551114]
 ]
 
