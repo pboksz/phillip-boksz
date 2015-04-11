@@ -21,7 +21,6 @@ america = [
   ['Killington, Vermont, USA',43.6542525,-72.7855623]
   ['Manchester, New Hampshire, USA',42.9705301,-71.4440609]
   ['Washington DC, USA',38.8993487,-77.0145665]
-  ['Wilmington, North Carolina, USA',34.2071359,-77.871576]
   ['Orlando, Florida, USA',28.4811689,-81.36875]
   ['Pheonix, Arizona, USA',33.6054149,-112.125051]
   ['Flagstaff, Arizona, USA',35.1812076,-111.607959]
