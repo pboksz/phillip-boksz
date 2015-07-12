@@ -59,6 +59,8 @@ europe = [
   ['Stalowa Wola, Poland',50.5661941,22.0162866]
   ['Suwałki, Poland',54.1027135,22.9291278]
   ['Zambrów, Poland',52.9761599,22.2472449]
+  ['Biaystok, Poland',53.1276252,23.1560658]
+  ['Bukowiec, Poland',49.3102101,22.4105286]
   ['Berlin, Germany',52.5075419,13.4251364]
   ['Paris, France',48.8588589,2.3470599]
   ['Nice, France',43.7031905,7.252817]
