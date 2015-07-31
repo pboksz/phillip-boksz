@@ -76,6 +76,8 @@ europe = [
   ['Kallithea, Halkidiki, Greece',40.0747065,23.4457398]
   ['Vienna, Austria',48.2206849,16.3800599]
   ['Brno, Czech Republic',49.2020701,16.5779606]
+  ['Bodelwyddan, Wales',53.2671908,-3.501706]
+  ['Manchester, England',53.4722454,-2.2235922]
 ]
 
 asia = [
