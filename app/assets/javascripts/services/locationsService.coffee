@@ -78,6 +78,7 @@ europe = [
   ['Brno, Czech Republic',49.2020701,16.5779606]
   ['Bodelwyddan, Wales',53.2671908,-3.501706]
   ['Manchester, England',53.4722454,-2.2235922]
+  ['Wrexham, Wales',53.0510857,-2.988168]
 ]
 
 asia = [
