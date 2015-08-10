@@ -79,6 +79,7 @@ europe = [
   ['Bodelwyddan, Wales',53.2671908,-3.501706]
   ['Manchester, England',53.4722454,-2.2235922]
   ['Wrexham, Wales',53.0510857,-2.988168]
+  ['Chester, England',3.1924889,-2.8878817]
 ]
 
 asia = [
