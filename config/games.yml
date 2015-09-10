@@ -38,6 +38,14 @@
     an ever growing board. He then uses his meeples to preform tasks to gain points on the placed tile.
     The base game is relatively quick, and with more expansions, the game can get into the two hour range.
 
+- name: 'Carcassonne: The City (2004)'
+  stars: 4
+  expansions: []
+  description: |
+    The City is a standalone game that uses and expands on the mechanics of Carcassonne. It has very well
+    crafted wooden pieces that let you create a walled city and get points similarly to the original game,
+    but with more options. This game is a fun, quick, very aesthetically pleasing experience.
+
 - name: 'Caylus (2005)'
   stars: 4
   expansions: []
@@ -54,6 +62,12 @@
     on the ten kingdom cards you use during your game. Each big expansion comes with 35 sets of kingdom cards,
     so with many expansions the diversity is limitless.
 
+- name: 'Dos Rios (2004)'
+  stars: 4
+  expansions: []
+  description: |
+    TODO
+
 - name: 'Fasolki (1997)'
   stars: 3.5
   expansions: ['Rozszerzenie (2010)']
@@ -69,6 +83,7 @@
     Firefly is a great thematic board game. All the characters from the show are there, and they can be part
     of your crew. You have a Firefly class ship, and you need to get paid. You get jobs around the galaxy,
     while evading the Reavers and the Alliance.
+
 - name: 'Galaxy Trucker (2007)'
   stars: 4.5
   expansions: []
@@ -185,6 +200,12 @@
     Risk is the classic territory conquering game. It should be played at least once, to know where the genre
     originated, but can sometimes drag on for a very long time. Though sending in 20 troops for a massive dice
     rolling battle is quite satisfying!
+
+- name: 'Robinson Crusoe: Adventures on the Cursed Island (2012)'
+  stars: 4
+  expansions: []
+  description: |
+    TODO
 
 - name: 'Settlers of Catan (1995)'
   stars: 5
