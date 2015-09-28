@@ -68,6 +68,12 @@
   description: |
     TODO
 
+- name: 'Exploding Kittens (2015)'
+  stars: 4
+  expansions: ['NSFW Deck (2015)']
+  description: |
+    TODO
+
 - name: 'Fasolki (1997)'
   stars: 3.5
   expansions: ['Rozszerzenie (2010)']
