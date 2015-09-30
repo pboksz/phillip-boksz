@@ -80,7 +80,8 @@ europe = [
   ['Manchester, England',53.4722454,-2.2235922]
   ['Wrexham, Wales',53.0510857,-2.988168]
   ['Chester, England',53.1924889,-2.8878817]
-  ['Newcastle upon Tyne, England',55.0023721,-1.6568434]
+  ['Liverpool, England',53.4077866,-2.990309]
+  ['Newcastle upon Tyne, England',54.9698921,-1.6068139]
 ]
 
 asia = [
