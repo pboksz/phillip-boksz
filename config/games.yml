@@ -66,13 +66,17 @@
   stars: 4
   expansions: []
   description: |
-    TODO
+    Dos Rios is all about placing works in optimal spots to make the most of the two rivers flowing through the board.
+    If one of the rivers irrigates a tile, you make a profit from the goods it produces in order to start building farms.
+    If you build all of your farms you win. It is a game with simple mechanics that work very well.
 
 - name: 'Exploding Kittens (2015)'
   stars: 4
   expansions: ['NSFW Deck (2015)']
   description: |
-    TODO
+    Exploding Kittens is a 15 odd minute game that involves trying to not draw the exploding kittens. The artwork in this
+    game is drawn by Matthew Inman (from The Oatmeal), and thus, it is awesome, as well as the text that comes on each
+    card. The game is fast and great for a lot of laughs.
 
 - name: 'Fasolki (1997)'
   stars: 3.5
