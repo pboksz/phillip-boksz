@@ -8,7 +8,7 @@
 
 - name: 'Agricola (2007)'
   stars: 4.5
-  expansions: []
+  expansions: ['Farmers of the Moor (2009)']
   description: |
     Agricola is a very complex, but rewarding farm building game. The instructions are quite a few pages,
     but it is worth learning. This game comes with a bunch card decks to increase or decrease complexity.
@@ -92,7 +92,7 @@
 
 - name: 'Galaxy Trucker (2007)'
   stars: 4.5
-  expansions: []
+  expansions: ['The Big Expansion (2008)']
   description: |
     Galaxy Trucker lets you build a spaceship with assorted pieces, then see if it survives the harshness of
     intergalactic travel. Your ship and crew will get shot at, bombarded by meteorites, and tasked with quests
