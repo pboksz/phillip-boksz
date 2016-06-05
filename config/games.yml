@@ -6,6 +6,11 @@
     cards to build resources which, in turn, help you construct buildings which gain your victory points.
     It is easy to learn, easy to play, and loads of fun.
 
+- name: '20th Century (2010)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
+
 - name: 'Agricola (2007)'
   stars: 4.5
   expansions: ['Farmers of the Moor (2009)']
@@ -21,6 +26,11 @@
     Apples to Apples can be played with as many people as you want. It is a game where one person judges
     everyones' card text combination. It is fun for the first few times, but once you know some of the funny
     combos, the magic disappears. It is a PG version of Cards Against Humanity.
+
+- name: 'Automobiles (2016)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
 
 - name: 'Boss Monster (2013)'
   stars: 3
@@ -54,6 +64,11 @@
     as well, to help you build the castle sections effectively. It is a pretty complex games, with a lot of
     pieces, but it is very fun, once you get all the rules down.
 
+- name: 'Dice Brewing (2014)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
+
 - name: 'Dominion (2008)'
   stars: 5
   expansions: ['Intrigue (2009)', 'Seaside (2009)', 'Prosperity (2010)', 'Cornucopia (2011)', 'Dark Ages (2012)']
@@ -69,6 +84,11 @@
     Dos Rios is all about placing works in optimal spots to make the most of the two rivers flowing through the board.
     If one of the rivers irrigates a tile, you make a profit from the goods it produces in order to start building farms.
     If you build all of your farms you win. It is a game with simple mechanics that work very well.
+
+- name: 'Exoplanets (2015)'
+  stars: 4
+  expansions: ['Stars (2015)', 'Space (2015)', 'Gravity (2015)']
+  description: 'TODO'
 
 - name: 'Exploding Kittens (2015)'
   stars: 4
@@ -116,6 +136,11 @@
     Guillotine is a chopping block card game. It is set during the French Revolution, with nobles in line.
     A line you don't want to be in. Each turn, a noble gets chopped, and you get points for it.
 
+- name: 'Havana (2009)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
+
 - name: 'Hive (2001)'
   stars: 3.5
   expansions: []
@@ -155,6 +180,11 @@
     Monopoly is the original board game, the one that always ends in flipped tables, and angry players.
     This game is worth playing once, but it is not very much fun more than that. Seriously, flipping tables.
 
+- name: 'Multiuniversum (2016)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
+
 - name: 'Munchkin Zombies (2011)'
   stars: 2.5
   expansions: []
@@ -162,6 +192,11 @@
     Munchkin Zombies is the zombie themed version of original Munchkin. You are an adventurer, kicking down
     doors to fight monsters and get loot. It is a game you can play with a bunch of people, but it wildly
     varies in play time.
+
+- name: 'Palazzo (2005)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
 
 - name: 'Pandemic (2007)'
   stars: 4.5
@@ -186,6 +221,11 @@
     Puerto Rico is a fantastic resource management game. It is all about harvesting crops in the titular country
     and shipping it off for victory points. Each turn you pick an action, and everyone gets the action, so there
     is a lot of careful planning involved to maximize your turn!
+
+- name: 'Quarantine (2013)'
+  stars: 4
+  expansions: []
+  description: 'TODO'
 
 - name: 'Race for the Galaxy (2007)'
   stars: 4.5
@@ -232,6 +272,11 @@
     Small World is a fantasy themed, territory conquering game. The fun part of this game is that each race has
     as special ability, and they are all mixed up, so the combinations are endless. It is all about playing on the
     strengths of your race and defeating adjacent players' minions.
+
+- name: 'Snowdonia (2013)'
+  stars: 4
+  expansions: ['Trans-Australian Railway & The Daffodil Line (2015)', 'Seasons (2016)']
+  description: 'TODO'
 
 - name: 'Strajk! Skok do Wolności (2013)'
   stars: 3.5
