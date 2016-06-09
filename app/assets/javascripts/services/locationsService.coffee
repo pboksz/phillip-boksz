@@ -83,6 +83,7 @@ europe = [
   ['Liverpool, England',53.4077866,-2.990309]
   ['Newcastle upon Tyne, England',54.9698921,-1.6068139]
   ['Amsterdam, Netherlands',52.3713494,4.8929922]
+  ['Birmingham, England',52.4826573,-1.8917504]
 ]
 
 asia = [
