@@ -84,6 +84,7 @@ europe = [
   ['Newcastle upon Tyne, England',54.9698921,-1.6068139]
   ['Amsterdam, Netherlands',52.3713494,4.8929922]
   ['Birmingham, England',52.4826573,-1.8917504]
+  ['Saint Paul\'s Bay, Malta',35.935682,14.3817163]
 ]
 
 asia = [
