@@ -87,6 +87,7 @@ europe = [
   ['Saint Paul\'s Bay, Malta',35.935682,14.3817163]
   ['Essen, Germany',51.4503481,7.0122077]
   ['Cologne, Germany',50.9428698,6.9578523]
+  ['Derby, England',52.9155235,-1.4641679]
 ]
 
 asia = [
