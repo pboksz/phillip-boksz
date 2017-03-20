@@ -95,4 +95,6 @@ europe = [
   ['Essen, Germany',51.4503481,7.0122077]
   ['Cologne, Germany',50.9428698,6.9578523]
   ['Derby, England',52.9155235,-1.4641679]
+  ['Val Gardena, Italy',46.5640418,11.7357659]
+  ['Munich, Germany',48.1327975,11.5815894]
 ]
