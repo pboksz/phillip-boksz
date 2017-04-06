@@ -1,15 +1,23 @@
 - name: '7 Wonders (2010)'
-  stars: 4
-  expansions: ['Leaders (2011)', 'Cities (2012)']
+  stars: 5
+  expansions: ['Leaders (2011)', 'Catan (2011)', 'Cities (2012)', 'Wonder Pack (2013)']
   description: |
     7 Wonders is fantastic game for up to 8 players with the expansions. It plays like a Magic draft where you pick
     cards to build resources which, in turn, help you construct buildings which gain your victory points.
     It is easy to learn, easy to play, and loads of fun.
 
+- name: '7 Wonders Duel (2015)'
+  stars: 5
+  expansions: ['Pantheon (2016)']
+  description: |
+    7 Wonders Duel is an awesome 2 player game. I used to think I would not get much use out of a game that is
+    strictly limited to 2 players, but this one is worth it. It has a similar flavor to 7 Wonders with some
+    very nice new mechanics!
+
 - name: '20th Century (2010)'
   stars: 4
   expansions: []
-  description: 'TODO'
+  description: ''
 
 - name: 'Agricola (2007)'
   stars: 4.5
@@ -19,7 +27,12 @@
     but it is worth learning. This game comes with a bunch card decks to increase or decrease complexity.
     It is colorful, thematic, and an absolute blast to play.
 
-- name: 'Apples to Apples'
+- name: 'Alhambra (2003)'
+  stars: 3.5
+  expansions: []
+  description: ''
+    
+- name: 'Apples to Apples (1999)'
   stars: 1.5
   expansions: []
   description: |
@@ -27,10 +40,20 @@
     everyones' card text combination. It is fun for the first few times, but once you know some of the funny
     combos, the magic disappears. It is a PG version of Cards Against Humanity.
 
-- name: 'Automobiles (2016)'
-  stars: 4
+- name: 'Ascension: Apprentice Edition (2013)'
+  stars: 3.5
   expansions: []
-  description: 'TODO'
+  description: ''
+
+- name: 'Automobiles (2016)'
+  stars: 4.5
+  expansions: []
+  description: ''
+
+- name: 'BANG!: The Walking Dead (2014)'
+  stars: 4
+  expansions: ['We are the Walking Dead (2015)']
+  description: ''
 
 - name: 'Boss Monster (2013)'
   stars: 3
@@ -56,6 +79,11 @@
     crafted wooden pieces that let you create a walled city and get points similarly to the original game,
     but with more options. This game is a fun, quick, very aesthetically pleasing experience.
 
+- name: 'The Castles of Burgundy (2011)'
+  stars: 4
+  expansions: []
+  description: ''
+  
 - name: 'Caylus (2005)'
   stars: 4
   expansions: []
