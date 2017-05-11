@@ -97,4 +97,7 @@ europe = [
   ['Derby, England',52.9155235,-1.4641679]
   ['Val Gardena, Italy',46.5640418,11.7357659]
   ['Munich, Germany',48.1327975,11.5815894]
+  ['Florence, Italy',43.7731506,11.2561031]
+  ['Rome, Italy',41.8902507,12.4922566]
+  ['Bologna, Italy',44.4937381,11.3430177]
 ]
