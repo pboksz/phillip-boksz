@@ -11,7 +11,7 @@ deploy:
   provider: heroku
   strategy: git
   api_key:
-    secure: ImimzrrVLOLgJ8kSHjOU/5xr7IZNZrDL8DXrOpcwjrCDJx3SihfUm+Q1gP9R6rAV9RcXca3ks2nybqsp/V5TNHwvhyeMnLlmsoPEhHg0vc5bn5KlHzxGW+H5Vm4UxOMfKX0KvhQFTbcHHP75jijb613i4yxhEIIBAHkg6+AItSk=
+    secure: "KMfmShlProJ98WmRWPLAIG07JISf94dWvWFE9Lg7SvbaIiyRCIYEfk9FkCu8dGra4NQvbRHBt63JBqu/eKvzs5hyBENEHZWtYLw3ayR4KUCGqcHV9N0/l9uH2KFg/+FQX0vtcS7KsCNWigZpsLxNrKElnwIPGT48WZWnFf21jN8="
   app: phillip-boksz
   on:
     repo: pboksz/phillip-boksz
