@@ -6,6 +6,7 @@ describe 'Games page' do
   it 'shows games' do
     expect(page).to have_text I18n.t('games.title')
     GAMES_BGG.each do |game|
+      expect(page).to have_link '', href: game.link
       expect(page).to have_text game.name
     end
   end
