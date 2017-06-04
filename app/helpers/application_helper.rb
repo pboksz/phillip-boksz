@@ -1,4 +1,9 @@
 module ApplicationHelper
+  def icon_link(link, icon_name, options = {})
+    attributes = options[:blank] ? { target: '_blank' } : {}
+    link_to(link, attributes) { icon(icon_name) }
+  end
+
   def star_rating_tag(stars)
     empty = (5 - stars).to_i
     times = stars.to_i

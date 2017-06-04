@@ -2,18 +2,12 @@
   .left
     .name= t('header.name')
     .links
-      = link_to projects_path do
-        = icon('briefcase')
-      = link_to games_path do
-        = icon('gamepad')
-      = link_to travels_path do
-        = icon('globe')
-      = link_to t('header.github_url'), target: '_blank' do
-        = icon('github')
-      = link_to t('header.linkedin_url'), target: '_blank' do
-        = icon('linkedin-square')
-      %a{ href: "mailto:#{t('header.email')}" }
-        = icon('envelope')
+      = icon_link(projects_path, 'briefcase')
+      = icon_link(games_path, 'gamepad')
+      = icon_link(travels_path, 'globe')
+      = icon_link(t('header.github_url'), 'github', blank: true)
+      = icon_link(t('header.linkedin_url'), 'linkedin-square', blank: true)
+      = icon_link("mailto:#{t('header.email')}", 'envelope')
   .center
     .avatar= image_tag 'avatar.jpg', alt: t('header.name')
   .right

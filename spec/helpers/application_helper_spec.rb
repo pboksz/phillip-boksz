@@ -5,6 +5,18 @@ describe ApplicationHelper do
     "<i class=\"fa fa-#{type}\"></i>" * times
   end
 
+  describe '#icon_link' do
+    describe "no options" do
+      subject { helper.icon_link('/link', 'star') }
+      it { expect(subject).to eq "<a href=\"/link\">#{icons('star')}</a>" }
+    end
+
+    describe 'blank option' do
+      subject { helper.icon_link('/link', 'star', blank: true) }
+      it { expect(subject).to eq "<a target=\"_blank\" href=\"/link\">#{icons('star')}</a>" }
+    end
+  end
+
   describe '#star_rating_tag' do
     subject { helper.star_rating_tag(stars) }
 
