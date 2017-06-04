@@ -9,6 +9,7 @@ Bundler.require(*Rails.groups)
 
 PROJECTS = YAML.load(File.read(File.expand_path('../projects.yml', __FILE__))).map { |project| RecursiveStruct.new(project) }
 GAMES = YAML.load(File.read(File.expand_path('../games.yml', __FILE__))).map { |game| RecursiveStruct.new(game) }
+GAMES_BGG = YAML.load(File.read(File.expand_path('../games_bgg.yml', __FILE__))).map { |game| RecursiveStruct.new(game) }
 
 module PhillipBoksz
   class Application < Rails::Application

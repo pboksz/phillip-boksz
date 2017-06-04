@@ -1,9 +1,6 @@
 .games
-  - GAMES.each do |game|
+  - GAMES_BGG.each do |game|
     .game
       .header
         .stars= star_rating_tag(game.stars)
         .name= game.name
-        .expansions= game.expansions.join('<br>').html_safe
-      .info
-        .description= game.description
