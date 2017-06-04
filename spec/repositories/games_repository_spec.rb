@@ -10,7 +10,7 @@ describe GamesRepository do
     let(:games) { [{ "name" => "Board Game" }] }
     before do
       expect(subject).to receive(:all).and_return(games)
-      expect(File).to receive(:write).with("#{Rails.root}/config/games_bgg.yml", games.to_yaml)
+      expect(File).to receive(:write).with("#{Rails.root}/config/games.yml", games.to_yaml)
     end
 
     it { subject.write_to_yaml }

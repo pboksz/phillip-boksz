@@ -1,339 +1,190 @@
-- name: '7 Wonders (2010)'
-  stars: 5
-  expansions: ['Leaders (2011)', 'Catan (2011)', 'Cities (2012)', 'Wonder Pack (2013)']
-  description: |
-    7 Wonders is fantastic game for up to 8 players with the expansions. It plays like a Magic draft where you pick
-    cards to build resources which, in turn, help you construct buildings which gain your victory points.
-    It is easy to learn, easy to play, and loads of fun.
-
-- name: '7 Wonders Duel (2015)'
-  stars: 5
-  expansions: ['Pantheon (2016)']
-  description: |
-    7 Wonders Duel is an awesome 2 player game. I used to think I would not get much use out of a game that is
-    strictly limited to 2 players, but this one is worth it. It has a similar flavor to 7 Wonders with some
-    very nice new mechanics!
-
-- name: '20th Century (2010)'
-  stars: 4
-  expansions: []
-  description: ''
-
-- name: 'Agricola (2007)'
-  stars: 4.5
-  expansions: ['Farmers of the Moor (2009)']
-  description: |
-    Agricola is a very complex, but rewarding farm building game. The instructions are quite a few pages,
-    but it is worth learning. This game comes with a bunch card decks to increase or decrease complexity.
-    It is colorful, thematic, and an absolute blast to play.
-
-- name: 'Alhambra (2003)'
+---
+- link: https://boardgamegeek.com/boardgame/85036
+  name: 20th Century (2010)
   stars: 3.5
-  expansions: []
-  description: ''
-    
-- name: 'Apples to Apples (1999)'
+- link: https://boardgamegeek.com/boardgame/68448
+  name: 7 Wonders (2010)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/173346
+  name: 7 Wonders Duel (2015)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/31260
+  name: Agricola (2007)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/6249
+  name: Alhambra (2003)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/74
+  name: Apples to Apples (1999)
   stars: 1.5
-  expansions: []
-  description: |
-    Apples to Apples can be played with as many people as you want. It is a game where one person judges
-    everyones' card text combination. It is fun for the first few times, but once you know some of the funny
-    combos, the magic disappears. It is a PG version of Cards Against Humanity.
-
-- name: 'Ascension: Apprentice Edition (2013)'
-  stars: 3.5
-  expansions: []
-  description: ''
-
-- name: 'Automobiles (2016)'
+- link: https://boardgamegeek.com/boardgame/145633
+  name: 'Ascension: Apprentice Edition (2013)'
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/180680
+  name: Automobiles (2016)
   stars: 4.5
-  expansions: []
-  description: ''
-
-- name: 'BANG!: The Walking Dead (2014)'
-  stars: 4
-  expansions: ['We are the Walking Dead (2015)']
-  description: ''
-
-- name: 'Boss Monster (2013)'
-  stars: 3
-  expansions: []
-  description: |
-    Boss Monster lets you be the boss at the end of Super NES games. You build a dungeon, room by room,
-    to trap and kill questing adventurers. It has some great art on the cards (all 8-bit!), and is a
-    fun, quick game.
-
-- name: 'Carcassonne (2000)'
+- link: https://boardgamegeek.com/boardgame/160567
+  name: 'BANG!: The Walking Dead (2014)'
   stars: 3.5
-  expansions: ['Inns & Cathedrals (2002)', 'The Princess & the Dragon (2005)']
-  description: |
-    Carcassonne is a fun map building game. Each player gets a random square map tile and has to add it to
-    an ever growing board. He then uses his meeples to preform tasks to gain points on the placed tile.
-    The base game is relatively quick, and with more expansions, the game can get into the two hour range.
-
-- name: 'Carcassonne: The City (2004)'
-  stars: 4
-  expansions: []
-  description: |
-    The City is a standalone game that uses and expands on the mechanics of Carcassonne. It has very well
-    crafted wooden pieces that let you create a walled city and get points similarly to the original game,
-    but with more options. This game is a fun, quick, very aesthetically pleasing experience.
-
-- name: 'The Castles of Burgundy (2011)'
-  stars: 4
-  expansions: []
-  description: ''
-  
-- name: 'Caylus (2005)'
-  stars: 4
-  expansions: []
-  description: |
-    Caylus is game where you are tasked as a master builder of a French castle. You need to upgrade the town,
-    as well, to help you build the castle sections effectively. It is a pretty complex games, with a lot of
-    pieces, but it is very fun, once you get all the rules down.
-
-- name: 'Dice Brewing (2014)'
-  stars: 4
-  expansions: []
-  description: 'TODO'
-
-- name: 'Dominion (2008)'
-  stars: 5
-  expansions: ['Intrigue (2009)', 'Seaside (2009)', 'Prosperity (2010)', 'Cornucopia (2011)', 'Dark Ages (2012)']
-  description: |
-    Dominion is an amazing deck building game that one can play over and over again. Each game is different based
-    on the ten kingdom cards you use during your game. Each big expansion comes with 35 sets of kingdom cards,
-    so with many expansions the diversity is limitless.
-
-- name: 'Dos Rios (2004)'
-  stars: 4
-  expansions: []
-  description: |
-    Dos Rios is all about placing works in optimal spots to make the most of the two rivers flowing through the board.
-    If one of the rivers irrigates a tile, you make a profit from the goods it produces in order to start building farms.
-    If you build all of your farms you win. It is a game with simple mechanics that work very well.
-
-- name: 'Exoplanets (2015)'
-  stars: 4
-  expansions: ['Stars (2015)', 'Space (2015)', 'Gravity (2015)']
-  description: 'TODO'
-
-- name: 'Exploding Kittens (2015)'
-  stars: 4
-  expansions: ['NSFW Deck (2015)']
-  description: |
-    Exploding Kittens is a 15 odd minute game that involves trying to not draw the exploding kittens. The artwork in this
-    game is drawn by Matthew Inman (from The Oatmeal), and thus, it is awesome, as well as the text that comes on each
-    card. The game is fast and great for a lot of laughs.
-
-- name: 'Fasolki (1997)'
+- link: https://boardgamegeek.com/boardgame/11
+  name: Bohnanza (1997)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/131835
+  name: 'Boss Monster: The Dungeon Building Card Game (2013)'
   stars: 3.5
-  expansions: ['Rozszerzenie (2010)']
-  description: |
-    Fasolki (Bohnanza in English) is a fun, fast, bean planting game. You get points for planting multiple of the
-    same kind in a row, and each turn lets you haggle and trade to other players. This game involves a lot of
-    frantic yelling in the trading phases.
-
-- name: 'Firefly (2013)'
-  stars: 4
-  expansions: []
-  description: |
-    Firefly is a great thematic board game. All the characters from the show are there, and they can be part
-    of your crew. You have a Firefly class ship, and you need to get paid. You get jobs around the galaxy,
-    while evading the Reavers and the Alliance.
-
-- name: 'Galaxy Trucker (2007)'
+- link: https://boardgamegeek.com/boardgame/822
+  name: Carcassonne (2000)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/12902
+  name: 'Carcassonne: The City (2004)'
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/84876
+  name: The Castles of Burgundy (2011)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/13
+  name: Catan (1995)
   stars: 4.5
-  expansions: ['The Big Expansion (2008)']
-  description: |
-    Galaxy Trucker lets you build a spaceship with assorted pieces, then see if it survives the harshness of
-    intergalactic travel. Your ship and crew will get shot at, bombarded by meteorites, and tasked with quests
-    along the way. It is a fantastic, quick, and super satisfying game.
-
-- name: 'The Game of Life (1960)'
-  stars: 1.5
-  expansions: []
-  description: |
-    The Game of Life is the classic game for the 60s. It is fun a few times, but it doesn't use much skill.
-    It is all luck of the spin. It is cool getting a profession, house, and family.
-
-- name: 'Guillotine (1998)'
+- link: https://boardgamegeek.com/boardgame/18602
+  name: Caylus (2005)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/554
+  name: La Città (2000)
+  stars: 0.0
+- link: https://boardgamegeek.com/boardgame/178900
+  name: Codenames (2015)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/101
+  name: Detroit-Cleveland Grand Prix (1996)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/157322
+  name: Dice Brewing (2014)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/36218
+  name: Dominion (2008)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/40834
+  name: 'Dominion: Intrigue (2009)'
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/9408
+  name: Dos Rios (2004)
   stars: 3.5
-  expansions: []
-  description: |
-    Guillotine is a chopping block card game. It is set during the French Revolution, with nobles in line.
-    A line you don't want to be in. Each turn, a noble gets chopped, and you get points for it.
-
-- name: 'Havana (2009)'
-  stars: 4
-  expansions: []
-  description: 'TODO'
-
-- name: 'Hive (2001)'
+- link: https://boardgamegeek.com/boardgame/194880
+  name: Dream Home (2016)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/1460
+  name: Earthquake (1998)
+  stars: 0.0
+- link: https://boardgamegeek.com/boardgame/163976
+  name: Exoplanets (2015)
   stars: 3.5
-  expansions: []
-  description: |
-    Hive is a fantastic two player game that uses insects to try and overwhelm your opponent's queen bee.
-    It is a tad reminiscent of chess its is back and forth play style, and is a great brain teaser,
-    where thinking multiple moves ahead is advantageous.
-
-- name: 'King of Tokyo (2011)'
-  stars: 4
-  expansions: []
-  description: |
-    King of Tokyo is a wildly colorful, and fun game where you try to prove that you are the biggest, baddest
-    monster in Tokyo. You use dice throwing to attack, get energy, and victory point, with the goal of
-    either killing all the other monsters, or getting 20 victory points.
-
-- name: 'Kolejka (2011)'
-  stars: 4
-  expansions: ['Ogonek (2011)']
-  description: |
-    Kolejka (Queue in English) is a Polish board game about the long queues to buy goods during communism.
-    It is very well made, and shows what actually happened pretty accurately, while still being very fun
-    to play. It even has stickers for each card so you can translate it to five different languages!
-
-- name: 'Magic: The Gathering (1993)'
-  stars: 5
-  expansions: []
-  description: |
-    Magic is the best trading card game ever made. The depth and complexity of a game that has been around
-    since 1993 is unmatched, which leads to an amazing experience every time. There are multiple formats,
-    thousands of cards, and millions of players.
-
-- name: 'Monopoly: Deluxe Edition (1995)'
-  stars: 1
-  expansions: []
-  description: |
-    Monopoly is the original board game, the one that always ends in flipped tables, and angry players.
-    This game is worth playing once, but it is not very much fun more than that. Seriously, flipping tables.
-
-- name: 'Multiuniversum (2016)'
-  stars: 4
-  expansions: []
-  description: 'TODO'
-
-- name: 'Munchkin Zombies (2011)'
+- link: https://boardgamegeek.com/boardgame/172225
+  name: Exploding Kittens (2015)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/172242
+  name: 'Exploding Kittens: NSFW Deck (2015)'
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/138161
+  name: 'Firefly: The Game (2013)'
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/31481
+  name: Galaxy Trucker (2007)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/134157
+  name: Guilds of London (2016)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/116
+  name: Guillotine (1998)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/57925
+  name: Havana (2009)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/2655
+  name: Hive (2001)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/66076
+  name: Industry (2010)
+  stars: 0.0
+- link: https://boardgamegeek.com/boardgame/2989
+  name: Instinct (1998)
+  stars: 0.0
+- link: https://boardgamegeek.com/boardgame/70323
+  name: King of Tokyo (2011)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/107529
+  name: Kingdom Builder (2011)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/85325
+  name: Kolejka (2011)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/463
+  name: 'Magic: The Gathering (1993)'
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/192638
+  name: Multiuniversum (2016)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/86955
+  name: Munchkin Zombies (2011)
   stars: 2.5
-  expansions: []
-  description: |
-    Munchkin Zombies is the zombie themed version of original Munchkin. You are an adventurer, kicking down
-    doors to fight monsters and get loot. It is a game you can play with a bunch of people, but it wildly
-    varies in play time.
-
-- name: 'Palazzo (2005)'
-  stars: 4
-  expansions: []
-  description: 'TODO'
-
-- name: 'Pandemic (2007)'
+- link: https://boardgamegeek.com/boardgame/194879
+  name: Not Alone (2016)
   stars: 4.5
-  expansions: ['On The Brink (2009)']
-  description: |
-    Pandemic is a cooperative game, in which the players are stuggling to ride the world of epidemics.
-    The game is very punishing and will beat you a lot before you get a win. The art is very nice,
-    and the pieces are all well made. Overall, a great cooperative game.
-
-- name: 'Power Grid (2004)'
+- link: https://boardgamegeek.com/boardgame/183840
+  name: Oh My Goods! (2015)
   stars: 4.5
-  expansions: []
-  description: |
-    Power Grid is a game about trying to power cities with power plants. There are a few different kinds,
-    and the gameplay changes between auctioning power plays, to buying resources, to building markets in cities.
-    There is a lot of math, but it is very fun. Who doesn't like math?
-
-- name: 'Puerto Rico (2002)'
-  stars: 5
-  expansions: []
-  description: |
-    Puerto Rico is a fantastic resource management game. It is all about harvesting crops in the titular country
-    and shipping it off for victory points. Each turn you pick an action, and everyone gets the action, so there
-    is a lot of careful planning involved to maximize your turn!
-
-- name: 'Quarantine (2013)'
-  stars: 4
-  expansions: []
-  description: 'TODO'
-
-- name: 'Race for the Galaxy (2007)'
-  stars: 4.5
-  expansions: ['The Gathering Storm (2008)']
-  description: |
-    Race for the Galaxy is a card game where you build your galactic empire. It has a very interesting way to pay
-    to build things; The cards in your hand are also your currency. This game is complicated at first, because
-    there is no text (only symbols), but is amazingly fun once you get the hang of it.
-
-- name: 'The Resistance: Avalon (2012)'
-  stars: 4.5
-  expansions: []
-  description: |
-    Avalon is a game for up to ten players where some of the players are evil. It is a game of deception and
-    discussion to try and uncover the evil player (or keeping your cover). It is a great game once all the players
-    get into it and properly discuss the situations at hand.
-
-- name: 'Risk: Star Wars (2006)'
-  stars: 2
-  expansions: []
-  description: |
-    Risk is the classic territory conquering game. It should be played at least once, to know where the genre
-    originated, but can sometimes drag on for a very long time. Though sending in 20 troops for a massive dice
-    rolling battle is quite satisfying!
-
-- name: 'Robinson Crusoe: Adventures on the Cursed Island (2012)'
-  stars: 4
-  expansions: []
-  description: |
-    TODO
-
-- name: 'Settlers of Catan (1995)'
-  stars: 5
-  expansions: ['5-6 Player Extension (1996)', 'Cities & Knights (1998)', 'Cities & Knights: 5-6 Player Extension (2000)']
-  description: |
-    Catan is quintessential German style board game. The base game is great, but adding the Cities & Knights expansion
-    makes it even better. I can safely say this is the most play (most worn) game I have. The fun of trading,
-    building and yelling about sheep, wheat, wood, brick, and ore is awesome.
-
-- name: 'Small World Underground (2011)'
-  stars: 4
-  expansions: []
-  description: |
-    Small World is a fantasy themed, territory conquering game. The fun part of this game is that each race has
-    as special ability, and they are all mixed up, so the combinations are endless. It is all about playing on the
-    strengths of your race and defeating adjacent players' minions.
-
-- name: 'Snowdonia (2013)'
-  stars: 4
-  expansions: ['Trans-Australian Railway & The Daffodil Line (2015)', 'Seasons (2016)']
-  description: 'TODO'
-
-- name: 'Strajk! Skok do Wolności (2013)'
+- link: https://boardgamegeek.com/boardgame/15318
+  name: Palazzo (2005)
   stars: 3.5
-  expansions: []
-  description: |
-    Strajk! (Strike in English) is a game about the start of the Polish Solidarity movement, that started in the
-    shipyards of Gdansk. It is similar to Dominion in game play, with added moving pieces about a board.
-    The game is well made, and the educations value is awesome.
-
-- name: 'Taboo'
-  stars: 3
-  expansions: []
-  description: |
-    Taboo is a party game where groups of two try to guess a word on a card, without saying an buzz words.
-    There is definitely an advantage to having a lot of inside jokes to help with getting the answer out
-    of your partner. This game is good for a lot of laughs and hectic fun.
-
-- name: 'Terra Mystica'
+- link: https://boardgamegeek.com/boardgame/30549
+  name: Pandemic (2008)
   stars: 4.5
-  expansions: []
-  description: |
-    Terra Mystica is a civilization building game that has a lot of ways to score victory points. It can get 
-    fairly complex once you get things going. The different races and goals each game make sure that no two
-    games are the same. Overall, it is a great game with a bit of a learning curve.
-  
-- name: 'Zombie Fluxx'
-  stars: 3
-  expansions: []
-  description: |
-    Zombie Fluxx is a game with two basic rules: draw one, play one. But the rules change based on the cards played.
-    Sometimes this game takes on a mind of its own, but is always fun as a quick filler game that can be played
-    in less than 15 min (sometimes).
+- link: https://boardgamegeek.com/boardgame/161936
+  name: 'Pandemic Legacy: Season 1 (2015)'
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/75358
+  name: Paris Connection (2010)
+  stars: 3.0
+- link: https://boardgamegeek.com/boardgame/163412
+  name: Patchwork (2014)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/2651
+  name: Power Grid (2004)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/3076
+  name: Puerto Rico (2002)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/109764
+  name: Quarantine (2013)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/28143
+  name: Race for the Galaxy (2007)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/128882
+  name: 'The Resistance: Avalon (2012)'
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/121921
+  name: 'Robinson Crusoe: Adventures on the Cursed Island (2012)'
+  stars: 0.0
+- link: https://boardgamegeek.com/boardgame/148261
+  name: SeaFall (2016)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/97786
+  name: Small World Underground (2011)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/119432
+  name: Snowdonia (2012)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/148228
+  name: Splendor (2014)
+  stars: 4.0
+- link: https://boardgamegeek.com/boardgame/145400
+  name: Strajk! Skok do wolności (2013)
+  stars: 3.5
+- link: https://boardgamegeek.com/boardgame/1111
+  name: Taboo (1989)
+  stars: 3.0
+- link: https://boardgamegeek.com/boardgame/120677
+  name: Terra Mystica (2012)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/29387
+  name: Zombie Fluxx (2007)
+  stars: 3.0

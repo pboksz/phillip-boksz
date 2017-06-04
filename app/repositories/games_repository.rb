@@ -7,7 +7,7 @@ class GamesRepository
   end
 
   def write_to_yaml
-    File.write(File.join(Rails.root, "config", "games_bgg.yml"), all.to_yaml)
+    File.write(File.join(Rails.root, "config", "games.yml"), all.to_yaml)
   end
 
   private
