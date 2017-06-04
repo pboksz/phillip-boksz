@@ -5,10 +5,8 @@ describe 'Games page' do
 
   it 'shows games' do
     expect(page).to have_text I18n.t('games.title')
-    GAMES.each do |game|
+    GAMES_BGG.each do |game|
       expect(page).to have_text game.name
-      expect(page).to have_text game.expansions.join(' ')
-      expect(page).to have_text game.description
     end
   end
 end
