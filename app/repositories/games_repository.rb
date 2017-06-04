@@ -35,7 +35,7 @@ class GamesRepository
     {
       "link" => File.join(BGG_GAME_URL, item["objectid"]),
       "name" => "#{item["name"]} (#{item["yearpublished"]})",
-      "stars" => item["stats"]["rating"]["value"].to_i / 2
+      "stars" => item["stats"]["rating"]["value"].to_i / 2.0
     }
   end
 end
