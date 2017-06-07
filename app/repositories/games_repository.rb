@@ -17,7 +17,7 @@ class GamesRepository
   end
 
   def bgg_games
-    @bgg_games ||= Hash.from_xml(response).try(:[], "items").try(:[], "item")
+    @bgg_games ||= Hash.from_xml(response).try(:[], "items").try(:[], "item") || []
   end
 
   def parsed_games
