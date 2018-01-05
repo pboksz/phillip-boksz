@@ -35,6 +35,7 @@ america = [
   ['Savannah, Georgia, USA',32.0405369,-81.2003759]
   ['Richmond, Virginia, USA',37.524661,-77.4932614]
   ['Denver, Colorado, USA',39.7643389,-104.8551114]
+  ['Kansas City, Kansas, USA',39.0932013,-94.620041]
 ]
 
 asia = [
