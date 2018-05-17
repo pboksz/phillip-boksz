@@ -7,7 +7,7 @@ class GamesRepository
   end
 
   def write_to_yaml
-    File.write(File.join(Rails.root, "config", "games.yml"), all.to_yaml)
+    File.write(File.join(Rails.root, "config", "games.yml"), parsed_games.to_yaml) if parsed_games.present?
   end
 
   private

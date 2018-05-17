@@ -7,13 +7,25 @@ describe GamesRepository do
   end
 
   describe '#write_to_yaml' do
-    let(:games) { [{ "name" => "Board Game" }] }
-    before do
-      expect(subject).to receive(:all).and_return(games)
-      expect(File).to receive(:write).with("#{Rails.root}/config/games.yml", games.to_yaml)
+    describe 'present' do
+      let(:games) { [{ "name" => "Board Game" }] }
+      before do
+        expect(subject).to receive(:parsed_games).twice.and_return(games)
+        expect(File).to receive(:write).with("#{Rails.root}/config/games.yml", games.to_yaml)
+      end
+
+      it { subject.write_to_yaml }
     end
 
-    it { subject.write_to_yaml }
+    describe 'blank' do
+      let(:games) { [] }
+      before do
+        expect(subject).to receive(:parsed_games).and_return(games)
+        expect(File).to receive(:write).never
+      end
+
+      it { subject.write_to_yaml }
+    end
   end
 
   describe '#response' do
@@ -32,7 +44,7 @@ describe GamesRepository do
     before { expect(subject).to receive(:bgg_games).and_return(items) }
 
     describe 'data present' do
-      let(:items) { ["objectid"=> "1", "name" => "Board Game", "yearpublished" => "2000", "stats" => { "rating" => { "value" => "7" } }] }
+      let(:items) { [{ "objectid"=> "1", "name" => "Board Game", "yearpublished" => "2000", "stats" => { "rating" => { "value" => "7" } } }] }
       let(:attributes) { { "link" => "#{GamesRepository::BGG_GAME_URL}1", "name" => "Board Game (2000)", "stars" => 3.5 } }
 
       it { expect(subject.send(:parsed_games).first).to eq attributes }
