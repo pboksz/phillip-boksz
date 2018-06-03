@@ -5,6 +5,8 @@ module ApplicationHelper
   end
 
   def star_rating_tag(stars)
+    return 5.times.map { icon("question-circle") }.join.html_safe if stars.to_f == 0
+
     empty = (5 - stars).to_i
     times = stars.to_i
     half = (stars % 1) == 0.5
