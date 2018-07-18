@@ -7,7 +7,7 @@
   stars: 0.0
 - link: https://boardgamegeek.com/boardgame/249039
   name: 5 Minute Chase (2018)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/68448
   name: 7 Wonders (2010)
   stars: 5.0
@@ -25,7 +25,7 @@
   stars: 1.0
 - link: https://boardgamegeek.com/boardgame/31449
   name: Army of Frogs (2007)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/145633
   name: 'Ascension: Apprentice Edition (2013)'
   stars: 4.0
@@ -43,7 +43,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/216640
   name: The Banishing (2017)
-  stars: 0.0
+  stars: 4.5
 - link: https://boardgamegeek.com/boardgame/219513
   name: Bärenpark (2017)
   stars: 4.5
@@ -58,7 +58,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/206803
   name: Capital (2016)
-  stars: 0.0
+  stars: 4.0
 - link: https://boardgamegeek.com/boardgame/822
   name: Carcassonne (2000)
   stars: 3.5
@@ -82,7 +82,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/554
   name: La Città (2000)
-  stars: 0.0
+  stars: 4.0
 - link: https://boardgamegeek.com/boardgame/178900
   name: Codenames (2015)
   stars: 3.5
@@ -133,7 +133,7 @@
   stars: 4.0
 - link: https://boardgamegeek.com/boardgame/84469
   name: Fürstenfeld (2010)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/163081
   name: Galaxy of Trian (2014)
   stars: 0.0
@@ -160,7 +160,7 @@
   stars: 0.0
 - link: https://boardgamegeek.com/boardgame/230342
   name: InBetween (2017)
-  stars: 0.0
+  stars: 4.0
 - link: https://boardgamegeek.com/boardgame/66076
   name: Industry (2010)
   stars: 0.0
@@ -169,7 +169,7 @@
   stars: 0.0
 - link: https://boardgamegeek.com/boardgame/153238
   name: Ivor the Engine (2014)
-  stars: 0.0
+  stars: 4.5
 - link: https://boardgamegeek.com/boardgame/70323
   name: King of Tokyo (2011)
   stars: 4.0
@@ -190,7 +190,7 @@
   stars: 0.0
 - link: https://boardgamegeek.com/boardgame/147624
   name: Mount Everest (2013)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/192638
   name: Multiuniversum (2016)
   stars: 4.0
@@ -199,7 +199,7 @@
   stars: 2.0
 - link: https://boardgamegeek.com/boardgame/191438
   name: North American Railways (2016)
-  stars: 0.0
+  stars: 4.0
 - link: https://boardgamegeek.com/boardgame/194879
   name: Not Alone (2016)
   stars: 4.5
@@ -220,7 +220,7 @@
   stars: 5.0
 - link: https://boardgamegeek.com/boardgame/221107
   name: 'Pandemic Legacy: Season 2 (2017)'
-  stars: 0.0
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/75358
   name: Paris Connection (2010)
   stars: 3.0
@@ -247,16 +247,16 @@
   stars: 4.0
 - link: https://boardgamegeek.com/boardgame/121921
   name: 'Robinson Crusoe: Adventures on the Cursed Island (2012)'
-  stars: 0.0
+  stars: 2.5
+- link: https://boardgamegeek.com/boardgame/199561
+  name: Sagrada (2017)
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/230266
   name: Scare It! (2018)
-  stars: 0.0
+  stars: 3.0
 - link: https://boardgamegeek.com/boardgame/148261
   name: SeaFall (2016)
   stars: 3.0
-- link: https://boardgamegeek.com/boardgame/13
-  name: The Settlers of Catan (2012)
-  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/97786
   name: Small World Underground (2011)
   stars: 3.5
@@ -270,14 +270,11 @@
   name: Strajk! Skok do wolności (2013)
   stars: 3.0
 - link: https://boardgamegeek.com/boardgame/206156
-  name: SUPERHOT Card Game (2017)
+  name: 'SUPERHOT: The Card Game (2017)'
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/1111
   name: Taboo (1989)
   stars: 2.5
-- link: https://boardgamegeek.com/boardgame/1111
-  name: Taboo (2009)
-  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/475
   name: Taj Mahal (2000)
   stars: 0.0
@@ -289,7 +286,7 @@
   stars: 4.5
 - link: https://boardgamegeek.com/boardgame/180845
   name: Wibbell++ (2017)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/29387
   name: Zombie Fluxx (2007)
   stars: 3.0
