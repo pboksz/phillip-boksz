@@ -108,4 +108,5 @@ europe = [
   ['Cortona, Italy',43.2746487,11.985543]
   ['Siena, Italy',43.3184724,11.3314935]
   ['Città di San Marino, San Marino',43.935472,12.4473737]
+  ['Maspalomas, Gran Canaria',27.7378504,-15.5997773]
 ]
