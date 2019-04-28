@@ -5,9 +5,9 @@
         .name= project.name
         .links
           = link_to project.link, target: :_blank do
-            = icon('external-link-square')
+            = icon('fas', 'external-link-square-alt')
           = link_to project.github, target: :_blank do
-            = icon('github')
+            = icon('fab', 'github')
       .info
         .section.tech= project.tech.join(' | ')
         .section.description= project.description

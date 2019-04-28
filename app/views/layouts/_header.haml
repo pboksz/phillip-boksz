@@ -2,12 +2,12 @@
   .left
     .name= t('header.name')
     .links
-      = icon_link(projects_path, 'briefcase')
-      = icon_link(games_path, 'gamepad')
-      = icon_link(travels_path, 'globe')
-      = icon_link(t('header.github_url'), 'github', blank: true)
-      = icon_link(t('header.linkedin_url'), 'linkedin-square', blank: true)
-      = icon_link("mailto:#{t('header.email')}", 'envelope')
+      = icon_link(projects_path, 'fas', 'briefcase')
+      = icon_link(games_path, 'fas', 'gamepad')
+      = icon_link(travels_path, 'fas', 'globe-americas')
+      = icon_link(t('header.github_url'), 'fab', 'github', blank: true)
+      = icon_link(t('header.linkedin_url'), 'fab', 'linkedin', blank: true)
+      = icon_link("mailto:#{t('header.email')}", 'fas', 'envelope')
   .center
     .avatar= image_tag 'avatar.jpg', alt: t('header.name')
   .right
