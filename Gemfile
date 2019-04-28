@@ -25,6 +25,7 @@ group :development, :test do
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'pry'
+  gem 'rails-controller-testing'
   gem 'rspec-rails'
 end
 
