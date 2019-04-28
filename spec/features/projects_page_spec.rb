@@ -10,7 +10,6 @@ describe 'Projects page' do
       expect(page).to have_link '', href: project.github
       expect(page).to have_selector "##{project.anchor}"
       expect(page).to have_text project.tech.join(' | ')
-      expect(page).to have_text project.description
     end
   end
 end

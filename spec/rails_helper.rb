@@ -21,9 +21,6 @@ require 'rspec/rails'
 #
 # Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
-Capybara.server = :webrick
-Capybara.default_driver = :webkit
-
 RSpec.configure do |config|
   # RSpec Rails can automatically mix in different behaviours to your tests
   # based on their file location, for example enabling you to call `get` and
@@ -39,9 +36,12 @@ RSpec.configure do |config|
   # The different available types are documented in the features, such as in
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
+end
 
-  config.before type: :feature do
-    page.driver.block_unknown_urls
-    page.driver.browser.set_skip_image_loading(true)
-  end
+Capybara.server = :webrick
+Capybara.javascript_driver = :webkit
+
+Capybara::Webkit.configure do |config|
+  config.block_unknown_urls
+  config.skip_image_loading
 end
