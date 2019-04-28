@@ -11,10 +11,6 @@ gem 'jquery-rails'
 gem 'haml-rails'
 gem 'recursive_struct'
 
-group :test do
-  gem 'codeclimate-test-reporter', require: nil
-end
-
 group :development do
   gem 'spring'
   gem 'travis'
