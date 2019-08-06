@@ -114,4 +114,5 @@ europe = [
   ['Llandudno, Wales',53.3230819,-3.8288597]
   ['Bangor, Wales',53.2275204,-4.129852]
   ['Harrogate, England',53.9970299,-1.5408157]
+  ['Huddersfield, England',53.6464566,-1.7826595]
 ]
