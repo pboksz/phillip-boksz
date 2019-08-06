@@ -115,4 +115,5 @@ europe = [
   ['Bangor, Wales',53.2275204,-4.129852]
   ['Harrogate, England',53.9970299,-1.5408157]
   ['Huddersfield, England',53.6464566,-1.7826595]
+  ['Tonbridge, England',51.1968227,0.2753689]
 ]
