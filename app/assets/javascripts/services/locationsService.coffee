@@ -42,6 +42,7 @@ asia = [
   ['Hong Kong, China',22.3700556,114.1223784]
   ['Macau, China',22.1634178,113.5629425]
   ['Tokyo, Japan',35.673343,139.710388]
+  ['Ko Yao Yai, Thailand',7.9824535,98.5690027]
 ]
 
 canada = [
