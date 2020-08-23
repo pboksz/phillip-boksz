@@ -8,9 +8,6 @@ addons:
     packages:
       - libqtwebkit-dev
       - libqtwebkit4
-  code_climate:
-    repo_token:
-      secure: FgoNOO0mPVsc6sACytAUcq4ze8DYrOIbObeyMHq2H2GZTycY7YE8fspkWXnPMF6SesWnIGzuNa+UksWbdD9kXiEzHFij1KtCtM99RvowuHTsromJViKlQ69l586KMGT33cjzmEMVvkXVwkrqPm35E9vFoHGLlo4fMWwaxucMikg=
 deploy:
   provider: heroku
   strategy: git

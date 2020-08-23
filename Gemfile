@@ -22,10 +22,6 @@ group :production do
   gem 'rails_12factor'
 end
 
-group :test do
-  gem 'codeclimate-test-reporter', require: nil
-end
-
 group :development, :test do
   gem 'capybara'
   gem 'capybara-webkit'
