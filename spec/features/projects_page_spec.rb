@@ -7,7 +7,6 @@ describe 'Projects page' do
     PROJECTS.each do |project|
       expect(page).to have_text project.name
       expect(page).to have_link '', href: project.link
-      expect(page).to have_link '', href: project.github
       expect(page).to have_selector "##{project.anchor}"
       expect(page).to have_text project.tech.join(' | ')
     end

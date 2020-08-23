@@ -23,7 +23,7 @@ describe ApplicationHelper do
 
     describe '0 stars' do
       let(:stars) { 0 }
-      it { expect(subject).to eq question * 5 }
+      it { expect(subject).to eq question }
     end
 
     describe '0.5 stars' do
