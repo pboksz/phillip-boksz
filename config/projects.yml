@@ -1,10 +1,24 @@
+- name: 'HappyBart'
+  link: 'http://happybart.com'
+  image: 'projects/happybart.png'
+  anchor: 'happybart'
+  next: 'diamond_clinic'
+  prev: ''
+  tech: ['ruby on rails', 'mysql', 'rspec', 'haml', 'jquery', 'sass', 'circle ci', 'amazon aws']
+  description: |
+    This is a site for a contruction company in Berlin, Germany. The client wanted to make a platform for people to
+    connect people needing work done, to people doing work. This platform has functionality to have vendor set up an
+    availability calendar and a lot of other information to narrow down a client's search for the ideal person.
+    Other things to note would be javascript based image uploading, lead generation forms, address autocomplete using
+    third party geolocation services, and a full range of Amazon AWS usage.
+
 - name: 'Diamond Clinic'
   link: 'http://diamondclinic.eu'
   github: 'https://github.com/pboksz/diamond-clinic'
   image: 'projects/diamond_clinic.png'
   anchor: 'diamond_clinic'
   next: 'wedding_website'
-  prev: ''
+  prev: 'happybart'
   tech: ['ruby on rails', 'coffeescript', 'mongodb', 'rspec', 'haml', 'jquery', 'sass', 'unicorn', 'travis ci', 'heroku']
   description: |
     This is a site for a private medical clinic in Kraków, Poland. The client needed a site to put up information
