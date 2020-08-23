@@ -78,27 +78,24 @@ describe ApplicationHelper do
   end
 
   describe '#switch_project_tag' do
-    let(:project) { nil }
-    let(:type) { nil }
+    let(:project) { 'project' }
     subject { helper.switch_project_tag(project, type) }
 
-    describe 'no project link or type' do
-      it { expect(subject).to be_nil }
+    describe 'next' do
+      let(:type) { :next }
+
+      it 'displays' do
+        expect(subject).to include 'a class="next" href="#project"'
+        expect(subject).to include 'i class="fas fa-caret-down"'
+      end
     end
 
-    describe 'has project link and type' do
-      let(:project) { 'project' }
+    describe 'previous' do
+      let(:type) { :prev }
 
-      describe 'next' do
-        let(:type) { :next }
-        it { expect(subject).to include 'a class="next" href="#project"' }
-        it { expect(subject).to include 'i class="fas fa-caret-down"' }
-      end
-
-      describe 'previous' do
-        let(:type) { :prev }
-        it { expect(subject).to include 'a class="prev" href="#project"' }
-        it { expect(subject).to include 'i class="fas fa-caret-up"' }
+      it 'displays'  do
+        expect(subject).to include 'a class="prev" href="#project"'
+        expect(subject).to include 'i class="fas fa-caret-up"'
       end
     end
   end
