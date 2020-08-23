@@ -5,7 +5,7 @@ module ApplicationHelper
   end
 
   def star_rating_tag(stars)
-    return 5.times.map { icon('fas', 'question-circle') }.join.html_safe if stars.to_f == 0
+    return icon('fas', 'question-circle').html_safe if stars.to_f == 0
 
     empty = (5 - stars).to_i
     times = stars.to_i
