@@ -20,20 +20,17 @@ module ApplicationHelper
   end
 
   def switch_project_tag(project, type)
-    if project.present? && type
-      link_to "##{project}", class: type do
-        icon('fas', get_icon_from_type(type))
-      end
+    link_to "##{project}", class: type do
+      icon('fas', get_icon_from_type(type))
     end
   end
 
   private
 
   def get_icon_from_type(type)
-    case type
-      when :next; 'caret-down'
-      when :prev; 'caret-up'
-      else; nil
-    end
+    return 'caret-down' if type == :next
+    return 'caret-up' if type == :prev
+
+    nil
   end
 end

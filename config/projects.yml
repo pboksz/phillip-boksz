@@ -3,7 +3,7 @@
   image: 'projects/happybart.png'
   anchor: 'happybart'
   next: 'diamond_clinic'
-  prev: ''
+  prev: 'admin_auth'
   tech: ['ruby on rails', 'mysql', 'rspec', 'haml', 'jquery', 'sass', 'circle ci', 'amazon aws']
   description: |
     This is a site for a contruction company in Berlin, Germany. The client wanted to make a platform for people to
@@ -55,7 +55,6 @@
     a nice looking chart of all the min and max low prices for each day.
 
 - name: 'The Classic Look Salon'
-  link: 'http://classic-look.herokuapp.com'
   github: 'https://github.com/pboksz/classic-look'
   image: 'projects/the_classic_look_salon.png'
   anchor: 'classic_look'
@@ -86,7 +85,7 @@
   github: 'https://github.com/pboksz/recursive_struct'
   image: 'projects/recursive_struct.png'
   anchor: 'recursive_struct'
-  next: ''
+  next: 'happybart'
   prev: 'admin_auth'
   tech: ['ruby', 'rspec']
   description: |

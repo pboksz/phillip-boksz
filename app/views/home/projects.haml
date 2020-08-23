@@ -4,8 +4,9 @@
       .header
         .name= project.name
         .links
-          = link_to project.link, target: :_blank do
-            = icon('fas', 'external-link-square-alt')
+          - if project.link.present?
+            = link_to project.link, target: :_blank do
+              = icon('fas', 'external-link-square-alt')
           - if project.github.present?
             = link_to project.github, target: :_blank do
               = icon('fab', 'github')
