@@ -117,4 +117,5 @@ europe = [
   ['Harrogate, England',53.9970299,-1.5408157]
   ['Huddersfield, England',53.6464566,-1.7826595]
   ['Tonbridge, England',51.1968227,0.2753689]
+  ['Worcester, England',52.193716,-2.2215964]
 ]
