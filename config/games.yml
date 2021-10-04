@@ -80,9 +80,6 @@
 - link: https://boardgamegeek.com/boardgame/12902
   name: 'Carcassonne: The City (2004)'
   stars: 3.5
-- link: https://boardgamegeek.com/boardgame/191041
-  name: Carrotia (2016)
-  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/84876
   name: The Castles of Burgundy (2011)
   stars: 4.0
@@ -124,7 +121,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/181494
   name: CVlizations (2015)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/202977
   name: 'Cytosis: A Cell Biology Board Game (2017)'
   stars: 0.0
@@ -164,6 +161,9 @@
 - link: https://boardgamegeek.com/boardgame/175621
   name: Epic Card Game (2015)
   stars: 0.0
+- link: https://boardgamegeek.com/boardgame/199792
+  name: Everdell (2018)
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/163976
   name: Exoplanets (2015)
   stars: 3.5
@@ -197,8 +197,8 @@
 - link: https://boardgamegeek.com/boardgame/57925
   name: Havana (2009)
   stars: 3.5
-- link: https://boardgamegeek.com/boardgame/2655
-  name: Hive (2000)
+- link: https://boardgamegeek.com/boardgame/154597
+  name: Hive Pocket (2010)
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/119265
   name: Hospital Rush (2014)
@@ -275,6 +275,9 @@
 - link: https://boardgamegeek.com/boardgame/30549
   name: Pandemic (2008)
   stars: 4.5
+- link: https://boardgamegeek.com/boardgame/314040
+  name: 'Pandemic Legacy: Season 0 (2020)'
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/161936
   name: 'Pandemic Legacy: Season 1 (2015)'
   stars: 5.0
@@ -361,6 +364,9 @@
   stars: 5.0
 - link: https://boardgamegeek.com/boardgame/120677
   name: Terra Mystica (2012)
+  stars: 4.5
+- link: https://boardgamegeek.com/boardgame/167791
+  name: Terraforming Mars (2016)
   stars: 4.5
 - link: https://boardgamegeek.com/boardgame/217085
   name: Unearth (2017)
