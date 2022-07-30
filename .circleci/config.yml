@@ -13,6 +13,13 @@ jobs:
       - checkout
 
       - run:
+          name: Install QT Webkit
+          command:
+            - sudo apt-add-repository -y ppa:ubuntu-sdk-team/ppa
+            - sudo apt-get -y update; true
+            - sudo apt-get -y install libqtwebkit-dev libqtwebkit4
+
+      - run:
           name: Install Dependencies
           command: bundle install --path vendor/bundle
 
