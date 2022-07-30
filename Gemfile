@@ -15,7 +15,6 @@ gem 'recursive_struct'
 
 group :development do
   gem 'spring'
-  gem 'travis'
 end
 
 group :production do
