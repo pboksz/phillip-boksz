@@ -122,4 +122,5 @@ europe = [
   ['Worcester, England',52.193716,-2.2215964]
   ['Harlech, Wales',52.8599306,-4.1090319]
   ['Betws-y-Coed, Wales',53.0923628,-3.8013087]
+  ['Rethymno, Crete, Greece',35.3690847,24.5187262]
 ]
