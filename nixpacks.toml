@@ -2,4 +2,4 @@
 RAILS_ENV = 'production'
 
 [phases.install]
-aptPkgs = ['shared-mime-info']
+aptPkgs = ['shared-mime-info', 'libqtwebkit-dev', 'libqtwebkit4']
