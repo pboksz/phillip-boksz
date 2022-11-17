@@ -1,2 +1,5 @@
-[phases.setup]
+[variables]
+RAILS_ENV = 'production'
+
+[phases.install]
 aptPkgs = ['shared-mime-info']
