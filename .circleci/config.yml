@@ -30,10 +30,7 @@ jobs:
 
       - run:
           name: Install Dependencies
-          command: |
-            bundle config set --local path 'vendor/bundle'
-            bundle config set --local without 'development production'
-            bundle check || bundle install --jobs 5 --retry 3
+          command: bundle install --path vendor/bundle
 
       - save_cache:
           key: gem-cache-{{ checksum "Gemfile.lock" }}
