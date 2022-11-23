@@ -1,5 +1,0 @@
-[variables]
-RAILS_ENV = 'production'
-
-[phases.install]
-aptPkgs = ['shared-mime-info', 'libqt5webkit5-dev', 'libqt5webkit5']
