@@ -17,6 +17,10 @@ jobs:
       - checkout
 
       - run:
+          name: Install QT Webkit
+          command: sudo apt-get -y install libqt5webkit5-dev libqt5webkit5
+
+      - run:
           name: Install Dependencies
           command: bundle install --path vendor/bundle
 
