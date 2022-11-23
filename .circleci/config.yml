@@ -28,7 +28,7 @@ jobs:
           name: Install Dependencies
           command: |
             bundle config set --local path 'vendor/bundle'
-            bundle config set --local without 'development'
+            bundle config set --local without 'development production'
             bundle check || bundle install --jobs 5 --retry 3
 
       - save_cache:
