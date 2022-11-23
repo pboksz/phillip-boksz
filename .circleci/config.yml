@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.6-node-browsers
+      - image: cimg/ruby:2.7.6-node-browsers
         environment:
           RAILS_ENV: test
 
@@ -26,7 +26,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/ruby:2.7.6-node-browsers
+      - image: cimg/ruby:2.7.6-node-browsers
         environment:
           RAILS_ENV: test
 
