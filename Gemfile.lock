@@ -101,8 +101,6 @@ GEM
       haml (>= 4.0.6, < 6.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
-    heroku-deflater (0.6.3)
-      rack (>= 1.4.5)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
       haml (>= 4.0, < 6)
@@ -162,11 +160,6 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
-    rails_12factor (0.0.3)
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_serve_static_assets (0.0.5)
-    rails_stdout_logging (0.0.5)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -246,13 +239,11 @@ DEPENDENCIES
   compass-rails
   font-awesome-sass
   haml-rails
-  heroku-deflater
   jquery-rails
   mimemagic (~> 0.3)
   pry
   rails (~> 5.2.0)
   rails-controller-testing
-  rails_12factor
   recursive_struct
   rspec-rails
   sass-rails (~> 5.0)
@@ -261,7 +252,7 @@ DEPENDENCIES
   unicorn
 
 RUBY VERSION
-   ruby 2.4.2p198
+   ruby 2.7.6p219
 
 BUNDLED WITH
-   1.16.6
+   2.3.26
