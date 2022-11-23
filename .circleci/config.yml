@@ -20,9 +20,18 @@ jobs:
           name: Install QT Webkit
           command: sudo apt-get -y install libqt5webkit5-dev libqt5webkit5
 
+      - restore_cache:
+          keys:
+            - gem-cache-{{ checksum "Gemfile.lock" }}
+
       - run:
           name: Install Dependencies
-          command: bundle install --path vendor/bundle
+          command: bundle check --path vendor/bundle ||  bundle install  --without development --local --path vendor/bundle --jobs 5 --retry 3
+
+      - save_cache:
+          key: gem-cache-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
 
       - run:
           name: Run Specs
