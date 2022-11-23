@@ -20,6 +20,10 @@ jobs:
           name: Install QT Webkit
           command: sudo apt-get -y install libqt5webkit5-dev libqt5webkit5
 
+      - run:
+          name: Update Gems
+          command: sudo gem update --system
+
       - restore_cache:
           keys:
             - gem-cache-{{ checksum "Gemfile.lock" }}
