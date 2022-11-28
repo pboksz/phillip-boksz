@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'mimemagic', '~> 0.3'
 gem 'jquery-rails'
 gem 'haml-rails'
+gem 'rest-client'
 gem 'recursive_struct'
 
 group :development do

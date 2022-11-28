@@ -29,7 +29,7 @@ describe GamesRepository do
   end
 
   describe '#response' do
-    before { expect(Net::HTTP).to receive(:get).with(URI.parse(GamesRepository::BGG_COLLECTION_URL)) }
+    before { expect(RestClient).to receive(:get).with(GamesRepository::BGG_COLLECTION_URL) }
     it { subject.send(:response) }
   end
 

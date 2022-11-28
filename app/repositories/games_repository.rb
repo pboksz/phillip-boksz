@@ -13,11 +13,11 @@ class GamesRepository
   private
 
   def response
-    @response ||= Net::HTTP.get(URI.parse(BGG_COLLECTION_URL))
+    RestClient.get(BGG_COLLECTION_URL)
   end
 
   def bgg_games
-    @bgg_games ||= Hash.from_xml(response).try(:[], "items").try(:[], "item") || []
+    Hash.from_xml(response).dig("items", "item")
   end
 
   def parsed_games
