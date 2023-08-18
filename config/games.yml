@@ -25,7 +25,7 @@
   stars: 4.0
 - link: https://boardgamegeek.com/boardgame/342942
   name: Ark Nova (2021)
-  stars: 4.5
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/31449
   name: Army of Frogs (2007)
   stars: 3.5
@@ -40,13 +40,13 @@
   stars: 4.5
 - link: https://boardgamegeek.com/boardgame/346965
   name: 'Azul: Queen''s Garden (2021)'
-  stars: 0.0
+  stars: 4.5
 - link: https://boardgamegeek.com/boardgame/95589
   name: Bad Grandmas (2011)
   stars: 3.0
 - link: https://boardgamegeek.com/boardgame/182094
   name: BANG! The Duel (2015)
-  stars: 0.0
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/160567
   name: 'BANG!: The Walking Dead (2014)'
   stars: 3.5
@@ -85,7 +85,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/295947
   name: Cascadia (2021)
-  stars: 0.0
+  stars: 4.5
 - link: https://boardgamegeek.com/boardgame/84876
   name: The Castles of Burgundy (2011)
   stars: 4.5
@@ -368,6 +368,9 @@
 - link: https://boardgamegeek.com/boardgame/167791
   name: Terraforming Mars (2016)
   stars: 5.0
+- link: https://boardgamegeek.com/boardgame/328871
+  name: 'Terraforming Mars: Ares Expedition (2021)'
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/16986
   name: Ubongo (2003)
   stars: 4.0
@@ -376,12 +379,15 @@
   stars: 4.0
 - link: https://boardgamegeek.com/boardgame/334065
   name: Verdant (2022)
-  stars: 0.0
+  stars: 4.5
 - link: https://boardgamegeek.com/boardgame/180845
   name: Wibbell++ (2017)
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/266192
   name: Wingspan (2019)
+  stars: 5.0
+- link: https://boardgamegeek.com/boardgame/366161
+  name: Wingspan Asia (2022)
   stars: 5.0
 - link: https://boardgamegeek.com/boardgame/29387
   name: Zombie Fluxx (2007)
