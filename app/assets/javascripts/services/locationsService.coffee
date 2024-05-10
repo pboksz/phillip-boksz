@@ -125,4 +125,5 @@ europe = [
   ['Toruń, Poland',53.0104728,18.6043141]
   ['Malbork, Poland',54.0401622,19.0284614]
   ['Rethymno, Crete, Greece',35.3690847,24.5187262]
+  ['Malmo, Sweden',55.5637427,12.9764327]
 ]
