@@ -40,8 +40,37 @@ describe GamesRepository do
     it { expect(subject.send(:bgg_games)).to eq items["item"] }
   end
 
+  describe '#load_games' do
+    context 'first time making request' do
+      let(:items) { nil }
+      before do
+        expect(subject).to receive(:bgg_games).and_return(items)
+        expect(subject).to receive(:retry?).and_return(false)
+      end
+
+      it { expect(subject.send(:load_games)).to be_empty }
+    end
+
+    context 'data loaded' do
+      let(:items) { [{ "objectid"=> "1", "name" => "Board Game", "yearpublished" => "2000", "stats" => { "rating" => { "value" => "7" } } }] }
+      before { expect(subject).to receive(:bgg_games).twice.and_return(items) }
+
+      it { expect(subject.send(:load_games)).to eq items }
+    end
+  end
+
+  describe '#retry?' do
+    it 'increments and checks against limit', :aggregate_failures do
+      expect(subject.send(:retry?)).to be true
+      expect(subject.send(:retry?)).to be true
+      expect(subject.send(:retry?)).to be true
+      expect(subject.send(:retry?)).to be false
+      expect(subject.send(:retry?)).to be false
+    end
+  end
+
   describe '#parsed_games' do
-    before { expect(subject).to receive(:bgg_games).and_return(items) }
+    before { expect(subject).to receive(:load_games).and_return(items) }
 
     describe 'data present' do
       let(:items) { [{ "objectid"=> "1", "name" => "Board Game", "yearpublished" => "2000", "stats" => { "rating" => { "value" => "7" } } }] }
@@ -51,8 +80,8 @@ describe GamesRepository do
     end
 
     describe 'data not present' do
-      let(:items) { [{ "success" => "failed" }] }
-      it { expect(subject.send(:parsed_games).first).to be_nil }
+      let(:items) { [] }
+      it { expect(subject.send(:parsed_games)).to be_empty }
     end
   end
 end

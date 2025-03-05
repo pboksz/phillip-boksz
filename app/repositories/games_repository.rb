@@ -30,7 +30,7 @@ class GamesRepository
     raise "loading games" if bgg_games.blank?
     bgg_games
   rescue
-    return unless retry?
+    return [] unless retry?
     sleep(SLEEP_AMOUNT)
     retry
   end
