@@ -1,5 +1,5 @@
 class GamesRepository
-  BGG_COLLECTION_URL = "https://www.boardgamegeek.com/xmlapi2/collection?username=pboksz&own=1&stats=1&excludesubtype=boardgameexpansion"
+  BGG_COLLECTION_URL = "https://www.boardgamegeek.com/xmlapi2/collection?username=deadumms&own=1&stats=1&excludesubtype=boardgameexpansion"
   BGG_GAME_URL = "https://boardgamegeek.com/boardgame/"
 
   def all
