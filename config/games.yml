@@ -31,7 +31,7 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/348554
   name: Autobahn (2022)
-  stars: 0.0
+  stars: 3.0
 - link: https://boardgamegeek.com/boardgame/180680
   name: Automobiles (2016)
   stars: 4.5
@@ -71,6 +71,9 @@
 - link: https://boardgamegeek.com/boardgame/131835
   name: 'Boss Monster: The Dungeon Building Card Game (2013)'
   stars: 3.5
+- link: https://boardgamegeek.com/boardgame/359974
+  name: 'Broken and Beautiful: A Game About Kintsugi (2023)'
+  stars: 3.5
 - link: https://boardgamegeek.com/boardgame/283155
   name: Calico (2020)
   stars: 4.5
@@ -85,9 +88,6 @@
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/295947
   name: Cascadia (2021)
-  stars: 4.5
-- link: https://boardgamegeek.com/boardgame/84876
-  name: The Castles of Burgundy (2011)
   stars: 4.5
 - link: https://boardgamegeek.com/boardgame/13
   name: CATAN (1995)
@@ -128,6 +128,9 @@
 - link: https://boardgamegeek.com/boardgame/202977
   name: 'Cytosis: A Cell Biology Board Game (2017)'
   stars: 3.5
+- link: https://boardgamegeek.com/boardgame/334986
+  name: Daybreak (2023)
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/207370
   name: Design Town (2016)
   stars: 4.0
@@ -161,9 +164,6 @@
 - link: https://boardgamegeek.com/boardgame/193483
   name: Dwar7s Fall (2016)
   stars: 0.0
-- link: https://boardgamegeek.com/boardgame/1460
-  name: Earthquake (1998)
-  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/175621
   name: Epic Card Game (2015)
   stars: 0.0
@@ -179,15 +179,18 @@
 - link: https://boardgamegeek.com/boardgame/172242
   name: 'Exploding Kittens: NSFW Deck (2015)'
   stars: 3.5
+- link: https://boardgamegeek.com/boardgame/177736
+  name: A Feast for Odin (2016)
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/138161
   name: 'Firefly: The Game (2013)'
   stars: 4.0
+- link: https://boardgamegeek.com/boardgame/391163
+  name: Forest Shuffle (2023)
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/84469
   name: Fürstenfeld (2010)
   stars: 3.5
-- link: https://boardgamegeek.com/boardgame/163081
-  name: Galaxy of Trian (2014)
-  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/31481
   name: Galaxy Trucker (2007)
   stars: 5.0
@@ -201,7 +204,7 @@
   name: Guillotine (1998)
   stars: 3.0
 - link: https://boardgamegeek.com/boardgame/57925
-  name: Havana (2009)
+  name: La Habana (2009)
   stars: 3.5
 - link: https://boardgamegeek.com/boardgame/154597
   name: Hive Pocket (2010)
@@ -217,9 +220,6 @@
   stars: 4.0
 - link: https://boardgamegeek.com/boardgame/66076
   name: Industry (2010)
-  stars: 0.0
-- link: https://boardgamegeek.com/boardgame/2989
-  name: Instinct (1998)
   stars: 0.0
 - link: https://boardgamegeek.com/boardgame/153238
   name: Ivor the Engine (2014)
@@ -263,8 +263,8 @@
 - link: https://boardgamegeek.com/boardgame/194879
   name: Not Alone (2016)
   stars: 4.5
-- link: https://boardgamegeek.com/boardgame/234277
-  name: Nusfjord (2017)
+- link: https://boardgamegeek.com/boardgame/378979
+  name: 'Nusfjord: Big Box (2024)'
   stars: 5.0
 - link: https://boardgamegeek.com/boardgame/183840
   name: Oh My Goods! (2015)
@@ -287,9 +287,6 @@
 - link: https://boardgamegeek.com/boardgame/221107
   name: 'Pandemic Legacy: Season 2 (2017)'
   stars: 5.0
-- link: https://boardgamegeek.com/boardgame/75358
-  name: Paris Connection (2010)
-  stars: 3.0
 - link: https://boardgamegeek.com/boardgame/163412
   name: Patchwork (2014)
   stars: 4.5
@@ -299,9 +296,6 @@
 - link: https://boardgamegeek.com/boardgame/2651
   name: Power Grid (2004)
   stars: 4.5
-- link: https://boardgamegeek.com/boardgame/3076
-  name: Puerto Rico (2002)
-  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/109764
   name: Quarantine (2013)
   stars: 4.0
@@ -338,9 +332,15 @@
 - link: https://boardgamegeek.com/boardgame/148261
   name: SeaFall (2016)
   stars: 3.0
+- link: https://boardgamegeek.com/boardgame/338960
+  name: 'Slay the Spire: The Board Game (2024)'
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/97786
   name: Small World Underground (2011)
   stars: 3.5
+- link: https://boardgamegeek.com/boardgame/75358
+  name: 'SNCF: France & Germany (2010)'
+  stars: 3.0
 - link: https://boardgamegeek.com/boardgame/119432
   name: Snowdonia (2012)
   stars: 5.0
@@ -350,6 +350,9 @@
 - link: https://boardgamegeek.com/boardgame/148228
   name: Splendor (2014)
   stars: 4.0
+- link: https://boardgamegeek.com/boardgame/387866
+  name: 'Star Wars: Unlimited (2024)'
+  stars: 5.0
 - link: https://boardgamegeek.com/boardgame/145400
   name: Strajk! Skok do wolności (2013)
   stars: 3.0
@@ -371,6 +374,9 @@
 - link: https://boardgamegeek.com/boardgame/328871
   name: 'Terraforming Mars: Ares Expedition (2021)'
   stars: 5.0
+- link: https://boardgamegeek.com/boardgame/14996
+  name: 'Ticket to Ride: Europe (2005)'
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/16986
   name: Ubongo (2003)
   stars: 4.0
@@ -389,6 +395,9 @@
 - link: https://boardgamegeek.com/boardgame/366161
   name: Wingspan Asia (2022)
   stars: 5.0
+- link: https://boardgamegeek.com/boardgame/410201
+  name: Wyrmspan (2024)
+  stars: 0.0
 - link: https://boardgamegeek.com/boardgame/29387
   name: Zombie Fluxx (2007)
   stars: 3.0
