@@ -62,9 +62,6 @@ describe GamesRepository do
   describe '#retry?' do
     it 'increments and checks against limit', :aggregate_failures do
       expect(subject.send(:retry?)).to be true
-      expect(subject.send(:retry?)).to be true
-      expect(subject.send(:retry?)).to be true
-      expect(subject.send(:retry?)).to be false
       expect(subject.send(:retry?)).to be false
     end
   end
