@@ -1,5 +1,5 @@
 class window.Location
-  @all: -> [].concat america, asia, canada, carribean, europe
+  @all: -> [].concat america, asia, canada, carribean, europe, poland, britain
 
 america = [
   ['Oakland, New Jersey, USA',41.0280615,-74.2371284]
@@ -61,17 +61,6 @@ carribean = [
 ]
 
 europe = [
-  ['Kraków, Poland',50.0467656,20.0048731]
-  ['Warszawa, Poland',52.232938,21.0611941]
-  ['Gdańsk, Poland',54.3610873,18.6900271]
-  ['Poznan, Poland',52.4005285,16.9016658]
-  ['Wrocław, Poland',51.1270779,16.9918639]
-  ['Opoczno, Poland',51.377272,20.2747472]
-  ['Stalowa Wola, Poland',50.5661941,22.0162866]
-  ['Suwałki, Poland',54.1027135,22.9291278]
-  ['Zambrów, Poland',52.9761599,22.2472449]
-  ['Biaystok, Poland',53.1276252,23.1560658]
-  ['Bukowiec, Poland',49.3102101,22.4105286]
   ['Berlin, Germany',52.5075419,13.4251364]
   ['Paris, France',48.8588589,2.3470599]
   ['Nice, France',43.7031905,7.252817]
@@ -87,12 +76,6 @@ europe = [
   ['Kallithea, Halkidiki, Greece',40.0747065,23.4457398]
   ['Vienna, Austria',48.2206849,16.3800599]
   ['Brno, Czech Republic',49.2020701,16.5779606]
-  ['Bodelwyddan, Wales',53.2671908,-3.501706]
-  ['Manchester, England',53.4722454,-2.2235922]
-  ['Wrexham, Wales',53.0510857,-2.988168]
-  ['Chester, England',53.1924889,-2.8878817]
-  ['Liverpool, England',53.4077866,-2.990309]
-  ['Newcastle upon Tyne, England',54.9698921,-1.6068139]
   ['Amsterdam, Netherlands',52.3713494,4.8929922]
   ['Birmingham, England',52.4826573,-1.8917504]
   ['Saint Paul\'s Bay, Malta',35.935682,14.3817163]
@@ -112,6 +95,33 @@ europe = [
   ['Siena, Italy',43.3184724,11.3314935]
   ['Città di San Marino, San Marino',43.935472,12.4473737]
   ['Maspalomas, Gran Canaria',27.7378504,-15.5997773]
+  ['Rethymno, Crete, Greece',35.3690847,24.5187262]
+  ['Malmo, Sweden',55.5637427,12.9764327]
+]
+
+poland = [
+  ['Kraków, Poland',50.0467656,20.0048731]
+  ['Warszawa, Poland',52.232938,21.0611941]
+  ['Gdańsk, Poland',54.3610873,18.6900271]
+  ['Poznan, Poland',52.4005285,16.9016658]
+  ['Wrocław, Poland',51.1270779,16.9918639]
+  ['Opoczno, Poland',51.377272,20.2747472]
+  ['Stalowa Wola, Poland',50.5661941,22.0162866]
+  ['Suwałki, Poland',54.1027135,22.9291278]
+  ['Zambrów, Poland',52.9761599,22.2472449]
+  ['Biaystok, Poland',53.1276252,23.1560658]
+  ['Bukowiec, Poland',49.3102101,22.4105286]
+  ['Toruń, Poland',53.0104728,18.6043141]
+  ['Malbork, Poland',54.0401622,19.0284614]
+]
+
+britain = [
+  ['Bodelwyddan, Wales',53.2671908,-3.501706]
+  ['Manchester, England',53.4722454,-2.2235922]
+  ['Wrexham, Wales',53.0510857,-2.988168]
+  ['Chester, England',53.1924889,-2.8878817]
+  ['Liverpool, England',53.4077866,-2.990309]
+  ['Newcastle upon Tyne, England',54.9698921,-1.6068139]
   ['Penderyn, Wales',51.7636985,-3.5231713]
   ['Shrewsbury, England',52.707376,-2.75438]
   ['Llandudno, Wales',53.3230819,-3.8288597]
@@ -122,8 +132,4 @@ europe = [
   ['Worcester, England',52.193716,-2.2215964]
   ['Harlech, Wales',52.8599306,-4.1090319]
   ['Betws-y-Coed, Wales',53.0923628,-3.8013087]
-  ['Toruń, Poland',53.0104728,18.6043141]
-  ['Malbork, Poland',54.0401622,19.0284614]
-  ['Rethymno, Crete, Greece',35.3690847,24.5187262]
-  ['Malmo, Sweden',55.5637427,12.9764327]
 ]
