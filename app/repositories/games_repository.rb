@@ -1,8 +1,8 @@
 class GamesRepository
   BGG_COLLECTION_URL = "https://www.boardgamegeek.com/xmlapi2/collection?username=deadumms&own=1&stats=1&excludesubtype=boardgameexpansion"
   BGG_GAME_URL = "https://boardgamegeek.com/boardgame/"
-  RETRY_LIMIT = 3
-  SLEEP_AMOUNT = 10
+  RETRY_LIMIT = 2
+  SLEEP_AMOUNT = 120
 
   def initialize
     @retries = 0
@@ -31,6 +31,7 @@ class GamesRepository
     bgg_games
   rescue
     return [] unless retry?
+    puts "waiting #{SLEEP_AMOUNT} seconds to retry request"
     sleep(SLEEP_AMOUNT)
     retry
   end
