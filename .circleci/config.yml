@@ -45,7 +45,7 @@ jobs:
       - run:
           name: Deploy to fly.io
           command: |
-            curl -L https://fly.io/install.sh | sh
+            curl -L https://fly.io/install.sh | sh -s -- --non-interactive
             export FLYCTL_INSTALL="/home/circleci/.fly"
             export PATH="$FLYCTL_INSTALL/bin:$PATH"
             sh -c "flyctl deploy --auto-confirm --app $FLY_APP_NAME --access-token $FLY_API_TOKEN"
