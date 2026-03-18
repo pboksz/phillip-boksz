@@ -132,5 +132,6 @@ britain = [
   ['Worcester, England',52.193716,-2.2215964]
   ['Harlech, Wales',52.8599306,-4.1090319]
   ['Betws-y-Coed, Wales',53.0923628,-3.8013087]
+  ['Whinfell, England',54.6354879,-2.6534459]
   ['Narberth, Wales',51.781983,-4.8085441]
 ]
