@@ -107,6 +107,7 @@ poland = [
   ['Suwałki, Poland',54.1027135,22.9291278]
   ['Zambrów, Poland',52.9761599,22.2472449]
   ['Biaystok, Poland',53.1276252,23.1560658]
+  ['Zakopane, Poland',49.2998813,19.9615111]
   ['Bukowiec, Poland',49.3102101,22.4105286]
   ['Toruń, Poland',53.0104728,18.6043141]
   ['Malbork, Poland',54.0401622,19.0284614]
