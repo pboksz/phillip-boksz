@@ -134,4 +134,5 @@ britain = [
   ['Betws-y-Coed, Wales',53.0923628,-3.8013087]
   ['Whinfell, England',54.6354879,-2.6534459]
   ['Narberth, Wales',51.781983,-4.8085441]
+  ['Saltdean, England',50.8030489,-0.0574974]
 ]
