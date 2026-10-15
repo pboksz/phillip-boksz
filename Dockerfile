@@ -18,7 +18,7 @@
 # performance.
 
 ARG RUBY_VERSION=2.7.8
-ARG VARIANT=jemalloc-bookworm-slim
+ARG VARIANT=jemalloc-bullseye-slim
 FROM quay.io/evl.ms/fullstaq-ruby:${RUBY_VERSION}-${VARIANT} as base
 
 LABEL fly_launch_runtime="rails"
