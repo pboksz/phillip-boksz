@@ -3,8 +3,11 @@ require 'rails_helper'
 describe HomeController do
   describe 'GET #index' do
     before { get :index }
-    it { expect(assigns(:title)).to eq I18n.t('travels.title') }
-    it { expect(response).to render_template :travels }
+
+    it 'renders', :aggregate_failures do
+      expect(assigns(:title)).to eq I18n.t('travels.title')
+      expect(response).to render_template :travels
+    end
   end
 
   describe 'GET #projects' do
@@ -14,14 +17,20 @@ describe HomeController do
 
   describe 'GET #games' do
     before { get :games }
-    it { expect(assigns(:title)).to eq I18n.t('games.title') }
-    it { expect(response).to render_template :games }
+
+    it 'renders', :aggregate_failures do
+      expect(assigns(:title)).to eq I18n.t('games.title')
+      expect(response).to render_template :games
+    end
   end
 
   describe 'GET #travels' do
     before { get :travels }
-    it { expect(assigns(:title)).to eq I18n.t('travels.title') }
-    it { expect(response).to render_template :travels }
+
+    it 'renders', :aggregate_failures do
+      expect(assigns(:title)).to eq I18n.t('travels.title')
+      expect(response).to render_template :travels
+    end
   end
 
   describe 'GET #sitemap' do

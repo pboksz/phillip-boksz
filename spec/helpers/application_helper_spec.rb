@@ -84,7 +84,7 @@ describe ApplicationHelper do
     describe 'next' do
       let(:type) { :next }
 
-      it 'displays' do
+      it 'displays', :aggregate_failures do
         expect(subject).to include 'a class="next" href="#project"'
         expect(subject).to include 'i class="fas fa-caret-down"'
       end
@@ -93,7 +93,7 @@ describe ApplicationHelper do
     describe 'previous' do
       let(:type) { :prev }
 
-      it 'displays'  do
+      it 'displays', :aggregate_failures do
         expect(subject).to include 'a class="prev" href="#project"'
         expect(subject).to include 'i class="fas fa-caret-up"'
       end
