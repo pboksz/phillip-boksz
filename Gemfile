@@ -14,7 +14,6 @@ gem 'recursive_struct'
 gem 'rest-client'
 gem 'rexml'
 gem 'sass-rails', '~> 5.0'
-gem 'thin'
 gem 'uglifier', '>= 1.3.0'
 
 group :development do
@@ -28,5 +27,5 @@ group :development, :test do
 end
 
 group :development, :production do
-  gem 'unicorn'
+  gem 'thin'
 end
